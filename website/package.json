@@ -8,7 +8,9 @@
     "serve": "gatsby serve"
   },
   "dependencies": {
-    "gatsby": "^1.9.250",
-    "gatsby-link": "^1.6.40"
+    "gatsby": "^1.9.273",
+    "gatsby-link": "^1.6.40",
+    "react-helmet": "^5.2.0",
+    "react-transition-group": "^2.4.0"
   }
 }

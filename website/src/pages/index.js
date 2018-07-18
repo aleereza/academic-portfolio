@@ -1,31 +1,12 @@
-import React from "react"
+import React from 'react'
+//import Link from 'gatsby-link'
 
-import Header from "../components/Header/Header"
-import NavTitle from "../components/Header/NavTitle/NavTitle"
+const IndexPage = () => (
+  <div>
+    <h3>Home</h3>
+    <p>This is the home page
+    </p>
+  </div>
+)
 
-
-class Index extends React.Component {
-  constructor() {
-    super()
-    this.state = { Yscroll: 0 }
-  }
-  updateYscroll = () => {
-    var w = window;
-    var y = w.scrollY
-    this.setState({ Yscroll: y });
-  };
-  componentDidMount() {
-    window.addEventListener("scroll", this.updateYscroll);
-  };
-  componentWillUnmount() {
-    window.removeEventListener("scroll", this.updateYscroll);
-  };
-
-  render() {
-    return (
-      <Header yscroll={this.state.Yscroll}/>
-    )
-  }
-}
-
-export default Index
+export default IndexPage

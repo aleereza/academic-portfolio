@@ -1,6 +1,5 @@
 import React from "react"
-
-//import NavTitle from "../components/Header/NavTitle/NavTitle"
+import NavTitle from "./NavTitle/NavTitle"
 
 
 class Header extends React.Component {
@@ -15,10 +14,10 @@ class Header extends React.Component {
   render() {
     return (
       <div>
-
+      <NavTitle/>
       <p>yscroll: {this.props.yscroll}</p>
       <p>s: {this.state.s}</p>
-      
+
       </div>
     )
   }
