@@ -5,7 +5,8 @@ import Helmet from 'react-helmet'
 import Header from "../components/Header/Header"
 import NavTitle from "../components/Header/NavTitle/NavTitle"
 import Content from "../components/Content/Content"
-import Transition from "../components/Transition/Transition"
+import Footer from "../components/Footer/Footer"
+//import Transition from "../components/Transition/MyTransition"
 
 class MainLayout extends React.Component {
   constructor(props) {
@@ -36,7 +37,7 @@ class MainLayout extends React.Component {
           ]}
         />
         <Header yscroll={this.state.Yscroll}/>
-        <Transition>{this.props.children()}</Transition>
+        <Footer/>
       </div>
     )
   }

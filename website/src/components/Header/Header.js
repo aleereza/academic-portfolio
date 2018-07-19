@@ -1,5 +1,6 @@
 import React from "react"
 import NavTitle from "./NavTitle/NavTitle"
+import NavTopfix from "./NavTopfix/NavTopfix"
 
 
 class Header extends React.Component {
@@ -15,6 +16,7 @@ class Header extends React.Component {
     return (
       <div>
       <NavTitle/>
+      <NavTopfix/>
       <p>yscroll: {this.props.yscroll}</p>
       <p>s: {this.state.s}</p>
 
