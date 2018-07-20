@@ -2,6 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
+import './index.css'
+
 import Header from "../components/Header/Header"
 import NavTitle from "../components/Header/NavTitle/NavTitle"
 import Content from "../components/Content/Content"
@@ -28,7 +30,6 @@ class MainLayout extends React.Component {
   render() {
     return (
       <div>
-
         <Helmet
           title="Rabab Kreidieh Ward"
           meta={[
@@ -37,6 +38,9 @@ class MainLayout extends React.Component {
           ]}
         />
         <Header yscroll={this.state.Yscroll}/>
+          <Content>
+            {this.props.children()}
+          </Content>
         <Footer/>
       </div>
     )

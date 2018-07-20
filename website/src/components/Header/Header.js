@@ -15,11 +15,8 @@ class Header extends React.Component {
   render() {
     return (
       <div>
-      <NavTitle/>
-      <NavTopfix/>
-      <p>yscroll: {this.props.yscroll}</p>
-      <p>s: {this.state.s}</p>
-
+        <NavTitle yscroll={this.props.yscroll}/>
+        yscroll: {this.props.yscroll}
       </div>
     )
   }

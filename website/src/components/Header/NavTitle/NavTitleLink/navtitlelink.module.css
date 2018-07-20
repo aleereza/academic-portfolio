@@ -1,0 +1,22 @@
+.container {
+  text-align: center;
+  background-color: red;
+  flex-direction: row;
+  flex: 1 1 0;
+
+  height: 60px;
+}
+
+.container:hover{
+  background-color: pink;
+}
+
+.link {
+  color: green;
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.link:hover{
+  color: white;
+}

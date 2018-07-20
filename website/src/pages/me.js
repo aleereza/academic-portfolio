@@ -6,6 +6,8 @@ const AboutMePage = () => (
     <h3>About Me</h3>
     <p>This page contains "About Me"
     </p>
+    <p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p>
+    <p>test</p><p>test</p>
   </div>
 )
 

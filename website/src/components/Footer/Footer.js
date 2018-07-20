@@ -8,8 +8,10 @@ class Footer extends React.Component {
 
   render() {
     return (
-      <div className={styles.footercontainer}>
+      <div className={styles.container}>
+        <div className={styles.footerdiv}>
         <p>Footer data ...</p>
+        </div>
       </div>
     )
   }
