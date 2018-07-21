@@ -10,8 +10,8 @@ class PublicationPage extends React.Component {
   render() {
     return (
       <div>
-        <h3>Publicatio</h3>
-        <p>This page contains "Publication"
+        <h3>Publications</h3>
+        <p>This page contains "Publications"
         </p>
       </div>
     )

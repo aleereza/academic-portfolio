@@ -1,0 +1,25 @@
+.mainpic {
+  width: 100%;
+}
+
+/* .helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+} */
+
+.mainpicdiv {
+  display:inline-block;
+  vertical-align: top;
+  height: 100%;
+  width: 30%;
+}
+
+
+.intro {
+  display:inline-block;
+  height: 100%;
+  width: 70%;
+  padding-left: 1rem;
+
+}

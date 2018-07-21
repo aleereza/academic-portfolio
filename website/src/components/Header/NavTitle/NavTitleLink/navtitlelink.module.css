@@ -1,22 +1,21 @@
 .container {
   text-align: center;
-  background-color: red;
   flex-direction: row;
   flex: 1 1 0;
-
-  height: 60px;
+  border-bottom: #F5F5F5 solid 3px;
+  border-top: #F5F5F5 solid 3px;
 }
 
 .container:hover{
-  background-color: pink;
+  border-bottom: black solid 3px;
 }
 
 .link {
-  color: green;
+  color: grey;
   margin: 0;
   font-size: 1.3rem;
 }
 
 .link:hover{
-  color: white;
+  color: black;
 }

@@ -16,7 +16,6 @@ class Header extends React.Component {
     return (
       <div>
         <NavTitle yscroll={this.props.yscroll}/>
-        yscroll: {this.props.yscroll}
       </div>
     )
   }

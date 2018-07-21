@@ -4,10 +4,7 @@ import React from 'react'
 const AboutMePage = () => (
   <div>
     <h3>About Me</h3>
-    <p>This page contains "About Me"
-    </p>
-    <p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p>
-    <p>test</p><p>test</p>
+    <p>This page contains "About Me"</p>
   </div>
 )
 
