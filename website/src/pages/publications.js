@@ -12,9 +12,8 @@ class PublicationPage extends React.Component {
     const data = this.props.data.allPublicationsCsv.edges
     return (
       <div>
-        <h3>Publications</h3>
-        <p>This page contains "Publications"
-        </p>
+        <h3>REFEREED PUBLICATIONS</h3>
+        <h4>Journals</h4>
         {data.map((row,i) => (
           <Publication
             title={row.node.title}
@@ -22,11 +21,6 @@ class PublicationPage extends React.Component {
             journal={row.node.journal}
           />
         ))}
-        <Publication
-          title="first title"
-          authors="first authors"
-          journal="first journal"
-        />
       </div>
     )
   }

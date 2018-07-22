@@ -42,6 +42,17 @@
   /* border-bottom: grey solid 1px; */
 }
 
+/* The sticky class is added to the navbar when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 80%;
+
+  display: flex;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 
 
 

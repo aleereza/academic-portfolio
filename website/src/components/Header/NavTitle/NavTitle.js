@@ -14,26 +14,39 @@ import MyTransition from "../../Transition/MyTransition"
 class NavTitle extends React.Component {
   constructor(props) {
     super(props)
+    this.state = {title_height : 0}
+    // this.titlecontainer = React.createRef();
   }
 
+  componentDidMount(){
+
+    // var height = this.titlecontainer.current.height();
+    var height = this.refs.titlecontainer.height();
+    this.setState({title_height : height})
+  }
+
+
+
   render() {
-    // var component_opacity
-    // if (this.props.yscroll < 300){
-    //   component_opacity = 1;
-    // }
-    // else {
-    //   component_opacity = 0;
-    // }
+
+    var title_height = this.state.height
+    var navbarclass
+    if (this.props.yscroll > title_height){
+      navbarclass = styles.sticky
+    }
+    else {
+      navbarclass = styles.navcontainer
+    }
 
     return (
       <div className={styles.container}>
-        <div className={styles.titlecontainer}>
+        <div className={styles.titlecontainer} ref="titlecontainer">
           <Link to="/">
             <h1>Rabab Kreidieh Ward</h1>
             <p>Professor Emeritus, Electrical and Computer Engineering</p>
           </Link>
         </div>
-        <div className={styles.navcontainer}>
+        <div className={navbarclass}>
           <NavTitleLink to="/me">About Me</NavTitleLink>
           <NavTitleLink to="/publications">Publications</NavTitleLink>
           <NavTitleLink to="/research">Research</NavTitleLink>
