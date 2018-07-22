@@ -1,12 +1,19 @@
 import React from 'react'
-//import Link from 'gatsby-link'
 
-const ResearchPage = () => (
+export default ({ data }) => (
   <div>
-    <h3>Research</h3>
-    <p>This page contains "Research"
-    </p>
+    <h1>About {data.site.siteMetadata.title}</h1>
+    <p>something</p>
   </div>
-)
+);
 
-export default ResearchPage
+export const query = graphql
+`
+  query AboutQuery {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+  }
+`;

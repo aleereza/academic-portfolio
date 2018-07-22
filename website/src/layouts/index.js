@@ -53,5 +53,15 @@ MainLayout.propTypes = {
 
 export default MainLayout
 
+// export const query = graphql`
+//   query LayoutQuery {
+//     site {
+//       siteMetadata {
+//         title
+//       }
+//     }
+//   }
+// `
+
 // <Search/>
 // <Warning content="The deadline for regular and special session papers has been extended to April 25"/>
