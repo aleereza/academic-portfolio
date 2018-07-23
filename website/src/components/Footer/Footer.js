@@ -21,10 +21,7 @@ class Footer extends React.Component {
                 rababw@ece.ubc.ca
               </FooterElement>
               <FooterElement icon={phone_icon}>
-                (604) 822-9428
-              </FooterElement>
-              <FooterElement icon={phone_icon}>
-                (604) 822-9013 (fax)
+                (604) 822-9428, fax: (604) 822-9013
               </FooterElement>
             </div>
             <div className={styles.col}>

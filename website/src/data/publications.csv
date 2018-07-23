@@ -1,21 +1,9 @@
 authors,title,journal,link
-"An optimal filter for short photoplethysmogram signals","Y. Liang, M. Elgendi, Z. Chen, R. Ward","Nature Scientific Data (5), 180076, 2018.",
-"Compute-and-Forward for Uplink Non-Orthogonal Multiple Access","C. Guo, A. Nasser Aljalai, C. Feng, L. Zhao, V. C. M. Leung, and R. K. Ward","IEEE Wireless Communications Letters, accepted for publication, May 2018",
+"Y. Liang, M. Elgendi, Z. Chen, R. Ward","An optimal filter for short photoplethysmogram signals","Nature Scientific Data (5), 180076, 2018.",
+"C. Guo, A. Nasser Aljalai, C. Feng, L. Zhao, V. C. M. Leung, and R. K. Ward","Compute-and-Forward for Uplink Non-Orthogonal Multiple Access","IEEE Wireless Communications Letters, accepted for publication, May 2018.",
 "M. Elgendi, Y. Liang, R. Fletcher, N. Howard, N. H. Lovell, D. Abbott, K. Lim, R. Ward","Review of Blood Pressure Estimation Using the Pulse Oximeter and Other Physiological Signals","Nature Digital Medicine, accepted with minor revisions on the 2nd of April 2018."
-4. R. Hussein, M. Elgendi, Z. Jane Wang, R. Ward, “Robust detection of epileptic seizures based on L1-penalized robust regression of EEG signals,” Expert Systems with Applications, vol. 104, pp. 153-167, ISSN 0957-4174, 2018.
-5. R. Hussein, H. Palangi, R. Ward, and Z. J. Wang, “Epileptic Seizure Detection: A Deep Learning Approach”, Submitted to IEEE Transactions on Biomedical Engineering, Feb. 2018.
-6. M. Elgendi, Y. Liang, and R. Ward, “Toward Generating More Diagnostic Features from Photoplethysmogram Waveforms,” Diseases, vol. 6, no. 20, March 2018.
-7. R. Hussein, M. Elgendi, Z. J. Wang and R. Ward, “Robust Detection of Epileptic Seizures Based on L1-Penalized Robust Regression of EEG Signals”, Elsevier Expert Systems with Applications, Under revision, Jan. 2018.
-8. M. Elgendi, A. Al-Ali, A. Mohamed, and R. Ward, “Improving Remote Health Monitoring: A low-complexity ECG Compression Approach,” Diagnostics, vol. 8, no. 1, 10, 2018.
-9. F. Sheikhzadeh, R. Ward, D. van Niekerk, M. Guillaud, "Automatic labeling of molecular biomarkers of imunohistochemistry images using fully convolutional networks", PLoS ONE, vol. 13, no. 1,  doi.org/10.1371/journal.pone.0190783,   January 2018.
-10. Y. Liu, X. Chen, Z. Wang, Z. Jane Wang, R. K. Ward, X. Wang, “Deep learning for pixel-level image fusion: Recent advances and future prospects,” Information Fusion, vol. 42, no. 1, pp. 158-173, 2017.
-11. V. Singhal, A. Majumdar and R. K. Ward, "Semi-supervised Deep Blind Compressed Sensing for Analysis and Reconstruction of Biomedical Signals from Compressive Measurements," in IEEE Access, vol. 1, no. 99, pp. 1-9, Dec 2017.
-12. S. Valizadeh, P. Nasiopoulos and R. Ward, "Perceptual Rate Distortion Optimization of 3D-HEVC using PSNR-HVS," Springer Multimedia Tools and Applications, vol. 1, pp. 1-24, Dec 2017.
-13. M. Elgendi, A. Mohamed, and R. Ward, “Efficient ECG Compression and QRS Detection for E-Health Applications”, Scientific Report, Nature, vol. 7, no. 459,  doi:10.1038/s41598-017-00540-x,  March 2017.
-14. S. Valizadeh, P. Nasiopoulos and R. Ward, "Improving Compression Efficiency of HEVC Using Perceptual Coding," IEEE Transactions on Consumer Electronics, Submitted, 2017.
-15. H. Bashashati, R. Ward, “Ensemble of Neural Network Conditional Random Fields for Self-Paced Brain Computer Interfaces”, Advances in Science, Technology and Engineering Systems Journal, vol. 2, no. 3, pp. 996-1005, 2017.
-16. D. Karimi, and R. Ward, R., “Sparse-view image reconstruction in cone-beam computed tomography with variance-reduced stochastic gradient descent and locally-adaptive proximal operation”, Journal of Medical and Biological Engineering, Engineering, vol. 37, no. 3, pp. 420-440, March 2017.
-17. A. Awad, C. F. Chiasserini, A. Mohamed, Ali Jaoua, and R. Ward, "“In-network Data Processing and Classification for Improving Delivery of Wireless Seizure Monitoring Systems", IEEE Intelligent Systems, Accepted, 2017.
-18. Y. Liu, X. Chen, R. K. Ward, and Z. J. Wang, "Image Fusion With Convolutional Sparse Representation", IEEE Signal Processing Letters, vol. 23, no. 12, pp. 1882-1886, Dec. 2016.
-19. A. Gogna, A. Majumdar and R. K. Ward, "Semi-supervised Stacked Label Consistent Autoencoder for Reconstruction and Analysis of Biomedical Signals", IEEE Transactions on Biomedical Engineering, vol. 64, no. 9, pp. 2196-2205. Nov. 2016.
-20. Karimi, D. and R. Ward, “Patch-based models and algorithms for image processing- a review of the basic principles and methods, and their application in computed tomography”. International Journal of Computer Assisted Radiology and Surgery, Volume 11, Issue 10, pp 1765–1777, October 2016.
+"R. Hussein, M. Elgendi, Z. Jane Wang, R. Ward", “Robust detection of epileptic seizures based on L1-penalized robust regression of EEG signals”, "Expert Systems with Applications, vol. 104, pp. 153-167, ISSN 0957-4174, 2018.",
+"R. Hussein, H. Palangi, R. Ward, and Z. J. Wang", “Epileptic Seizure Detection: A Deep Learning Approach”, "Submitted to IEEE Transactions on Biomedical Engineering, Feb. 2018."
+"M. Elgendi, Y. Liang, and R. Ward", “Toward Generating More Diagnostic Features from Photoplethysmogram Waveforms”, "Diseases, vol. 6, no. 20, March 2018."
+"R. Hussein, M. Elgendi, Z. J. Wang and R. Ward", “Robust Detection of Epileptic Seizures Based on L1-Penalized Robust Regression of EEG Signals”, "Elsevier Expert Systems with Applications, Under revision, Jan. 2018."
+"M. Elgendi, A. Al-Ali, A. Mohamed, and R. Ward", “Improving Remote Health Monitoring: A low-complexity ECG Compression Approach”,"Diagnostics, vol. 8, no. 1, 10, 2018."

@@ -15,7 +15,7 @@ class Header extends React.Component {
   render() {
     return (
       <div>
-        <NavTitle yscroll={this.props.yscroll}/>
+        <NavTitle yscroll={this.props.yscroll} winwidth={this.props.winwidth}/>
       </div>
     )
   }

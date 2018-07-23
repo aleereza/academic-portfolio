@@ -1,0 +1,82 @@
+.sidenav_container{
+  position: relative;
+  height: 100%;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    opacity: 0.85;
+    text-align: center;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 1rem;;
+    padding-bottom: 4.25rem;
+    transition: 0.5s;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  /* z-index: 2; */
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.open .sidenav{
+  width: 100%;
+}
+
+.menubutton{
+  flex: 0 0 auto;
+  z-index: 2;
+}
+
+.title {
+  flex: 1 1 auto;
+  padding-left: .5rem;
+}
+.title h1 {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  line-height: 1;
+  color: #FFFFFF;
+  font-size: 2.5rem;
+}
+
+.title p {
+  margin: 0;
+  font-weight: 500;
+  line-height: 1;
+  color: #FFFFFF;
+}
+
+.logo {
+  height: 3.5rem;
+}
+
+.logocontainer{
+  flex: 0 1 auto;
+}
+
+.navbar{
+  position: relative;
+  /* transition: 0.5s; */
+  padding: .5rem;
+  background-color: #002145;
+  border-bottom: grey solid 1px;
+  display: flex;
+  align-items: center;
+  /* height: 45px; */
+}

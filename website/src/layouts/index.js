@@ -13,18 +13,36 @@ import Footer from "../components/Footer/Footer"
 class MainLayout extends React.Component {
   constructor(props) {
     super(props)
-    this.state = { Yscroll: 0 }
+    this.state = { Window: 0, Yscroll: 0, Width: 0, Height: 0 }
   }
   updateYscroll = () => {
-    var w = window;
-    var y = w.scrollY
-    this.setState({ Yscroll: y });
+    if (typeof window !== 'undefined'){
+      var w = window;
+      // var w = this.state.Window
+      var y = w.scrollY
+      this.setState({ Yscroll: y });
+    }
+  };
+  updateDimensions = () => {
+    if (typeof window !== 'undefined'){
+      var w = window;
+      // var w = this.state.Window
+      var width = w.innerWidth
+      var height = w.innerHeight
+      this.setState({ Width: width, Height: height });
+    }
+  };
+  componentWillMount() {
+    // this.setState({Window: window})
+    this.updateDimensions();
   };
   componentDidMount() {
     window.addEventListener("scroll", this.updateYscroll);
+    window.addEventListener("resize", this.updateDimensions);
   };
   componentWillUnmount() {
     window.removeEventListener("scroll", this.updateYscroll);
+    window.removeEventListener("resize", this.updateDimensions);
   };
 
   render() {
@@ -37,8 +55,8 @@ class MainLayout extends React.Component {
             { name: 'keywords', content: 'Professor, UBC, Image Processing, Signal Processing'},
           ]}
         />
-        <Header yscroll={this.state.Yscroll}/>
-          <Content>
+        <Header yscroll={this.state.Yscroll} winwidth={this.state.Width}/>
+          <Content yscroll={this.state.Yscroll} winwidth={this.state.Width}>
             {this.props.children()}
           </Content>
         <Footer/>
