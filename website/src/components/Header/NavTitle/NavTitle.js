@@ -62,7 +62,7 @@ class NavTitle extends React.Component {
             </div>
           </div>
           <div className={navbarclass}>
-            <NavTitleLink to="/me">About Me</NavTitleLink>
+            <NavTitleLink to="/biography">Biography</NavTitleLink>
             <NavTitleLink to="/awards">Awards and Distinctions</NavTitleLink>
             <NavTitleLink to="/activities">Professional Activites</NavTitleLink>
             <NavTitleLink to="/publications">Publications</NavTitleLink>
@@ -75,7 +75,7 @@ class NavTitle extends React.Component {
     else {
       return (
         <NavSlide>
-            <NavSlideLink to="/me">About Me</NavSlideLink>
+            <NavSlideLink to="/biography">Biography</NavSlideLink>
             <NavSlideLink to="/awards">Awards and Distinctions</NavSlideLink>
             <NavSlideLink to="/activities">Professional Activites</NavSlideLink>
             <NavSlideLink to="/publications">Publications</NavSlideLink>

@@ -23,3 +23,15 @@
   padding-left: 1rem;
 
 }
+
+.conftable th{
+  text-align: center;
+  background-color: #CCCCCC;
+}
+.conftable td{
+  background-color: #e6f2ff;
+  padding: .25rem;
+}
+.conftable td{
+  border-bottom: grey solid 1px;
+}

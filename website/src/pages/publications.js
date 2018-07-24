@@ -9,13 +9,14 @@ class PublicationPage extends React.Component {
   }
 
   render() {
-    const data = this.props.data.allPublicationsCsv.edges
+    const data = this.props.data.allPublicationsRefereedJournalsCsv.edges
     return (
       <div>
-        <h3>REFEREED PUBLICATIONS</h3>
-        <h4>Journals</h4>
+        <h2>REFEREED PUBLICATIONS</h2>
+        <h3>Journals</h3>
         {data.map((row,i) => (
-          <Publication
+          <Publication key={i}
+            number={i+1}
             title={row.node.title}
             authors={row.node.authors}
             journal={row.node.journal}
@@ -33,7 +34,7 @@ export default PublicationPage
 export const query = graphql
 `
   query PublicationsQuery {
-    allPublicationsCsv {
+    allPublicationsRefereedJournalsCsv {
       edges {
         node {
           title
