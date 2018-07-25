@@ -9,8 +9,10 @@ class ActivitiesPage extends React.Component {
   }
 
   render() {
-    const confroletabledata = this.props.data.allActivitiesConfRoleTableCsv.edges
-    // const membershiptabledata = this.props.data.allActivitiesMembershipTableCsv.edges
+    const confroletabledata = this.props.data.allActivitiesConfRoleTable.edges
+    const membershiptabledata = this.props.data.allActivitiesMembershipTable.edges
+    const otherservicestabledata = this.props.data.allActivitiesOtherServicesTable.edges
+
     return (
   <div>
     <h3>Videos to  Raise Awareness about Engineering</h3>
@@ -97,7 +99,7 @@ class ActivitiesPage extends React.Component {
     </ul>
     <h4>Conference Participation (Organizer, Keynote Speaker, etc.)</h4>
 
-    <table className={styles.conftable}>
+    <table className={styles.table}>
       <tbody>
         <tr>
           <th width="40%">Conference or Event</th>
@@ -180,8 +182,45 @@ class ActivitiesPage extends React.Component {
     <h3>SERVICE TO THE UNIVERSITY</h3>
     <h4>Memberships in committees, including offices held and dates</h4>
 
+    <table className={styles.table}>
+      <tbody>
+        <tr>
+          <th width="20%">Organizational Unit</th>
+          <th width="40%">Committee Name</th>
+          <th width="20%">Start</th>
+          <th width="20%">End</th>
+        </tr>
+        {membershiptabledata.map((row,i) => (
+          <TableRow4 key={i}
+            c1={row.node.organization}
+            c2={row.node.committee}
+            c3={row.node.start}
+            c4={row.node.end}
+          />
+        ))}
+      </tbody>
+    </table>
+
     <h4>Other service to University , including dates</h4>
 
+    <table className={styles.table}>
+      <tbody>
+        <tr>
+          <th width="20%">Organizational Unit</th>
+          <th width="40%">Title/Nature of Duties</th>
+          <th width="20%">Start</th>
+          <th width="20%">End</th>
+        </tr>
+        {otherservicestabledata.map((row,i) => (
+          <TableRow4 key={i}
+            c1={row.node.organization}
+            c2={row.node.title}
+            c3={row.node.start}
+            c4={row.node.end}
+          />
+        ))}
+      </tbody>
+    </table>
 
     <p> I served as internal Examiner at UBC: I have served on at least 400 (Masters, PhD qualifying, PhD dept. and PhD final) exams of students supervised by other faculty members in my department. The names are too many to include here. In the past 12 months I served on 8 such exams. I have also chaired many Univesrity Ph.D exams.
     </p>
@@ -197,14 +236,34 @@ export default ActivitiesPage
 
 export const query = graphql
 `
-  query ConfQuery {
-    allActivitiesConfRoleTableCsv {
+  query ActivitiesQuery {
+    allActivitiesConfRoleTable: allActivitiesConfRoleTableCsv {
       edges {
         node {
           event
           role
           location
           date
+        }
+      }
+    }
+    allActivitiesMembershipTable: allActivitiesMembershipTableCsv {
+      edges {
+        node {
+          organization
+          committee
+          start
+          end
+        }
+      }
+    }
+    allActivitiesOtherServicesTable: allActivitiesOtherServicesTableCsv {
+      edges {
+        node {
+          organization
+          title
+          start
+          end
         }
       }
     }

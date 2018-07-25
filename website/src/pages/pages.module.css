@@ -24,14 +24,18 @@
 
 }
 
-.conftable th{
+.table {
+  margin-bottom: 1rem;
+}
+
+.table th{
   text-align: center;
   background-color: #CCCCCC;
 }
-.conftable td{
+.table td{
   background-color: #e6f2ff;
   padding: .25rem;
 }
-.conftable td{
+.table td{
   border-bottom: grey solid 1px;
 }

@@ -18,10 +18,10 @@ class Footer extends React.Component {
           <div className={styles.row}>
             <div className={styles.col}>
               <FooterElement icon={email_icon}>
-                rababw@ece.ubc.ca
+                rababw at ece dot ubc dot ca
               </FooterElement>
               <FooterElement icon={phone_icon}>
-                (604) 822-9428, fax: (604) 822-9013
+                (604) 266-4261
               </FooterElement>
             </div>
             <div className={styles.col}>

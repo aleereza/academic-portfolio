@@ -1,0 +1,31 @@
+.container{
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  padding: .5rem;
+}
+.name{
+  flex: 0 0 auto;
+  width: 10rem;
+}
+.detailcontainer{
+  flex: 1 0 auto;
+  /* display: flex; */
+}
+  .subdetailcontainer{
+    display: flex;
+  }
+    .programdatecontainer{
+      flex: 1 0 0;
+    }
+    .supervisorcontainer{
+      flex: 1 0 0;
+    }
+    .subdetailcontainer p {
+      line-height: 1;
+      padding: 0;
+      margin: 0;
+    }
+  .statuscontainer{
+    width: 100%;
+  }
