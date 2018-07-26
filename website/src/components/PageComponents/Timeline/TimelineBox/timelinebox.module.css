@@ -1,0 +1,65 @@
+/* UBC Colors
+UBC Blue: #002145
+Blue 1:   #0055B7
+Blue 2:   #00A7E1
+Blue 3:   #40B4E5
+Blue 4:   #6EC4E8
+Blue 5:   #97D4E9
+White:    #FFFFFF */
+
+.timelinebox{
+  position: relative;
+  padding-left: 7rem;
+}
+
+.timelinebox:not(:last-of-type){
+  margin-bottom: 2rem;
+}
+
+.timelinebox:before{
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #002145;
+
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  top: 50%;
+  margin-top: -1px;
+}
+
+.year{
+  width: 6rem;
+  height: 2rem;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -1rem;
+
+  /* box-sizing: border-box; */
+  /* padding: 0 .5rem; */
+  text-align: center;
+
+  background-color: #002145;
+  color: #97D4E9;
+
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+
+  border-radius: 2px;
+  border: 1px solid white;
+}
+
+.content{
+  padding: 1rem;
+  border-radius: 2px;
+  border-left: 3px solid #002145;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .12), 0 1px 2px 0 rgba(0, 0, 0, .24);
+  background-color: #97D4E9;
+}
+
+.content p {
+  margin: 0;
+}

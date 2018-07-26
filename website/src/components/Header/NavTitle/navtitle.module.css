@@ -6,6 +6,7 @@
    max-width: 1280px;
    /* border-bottom: grey solid 1px; */
    background-color: #F5F5F5;
+
 }
 
 .container h1 {
@@ -55,6 +56,7 @@
   background-color: #97D4E9;
   border-bottom: grey solid 1px;
   /* border-bottom: grey solid 1px; */
+  z-index: 10;
 }
 
 /* The sticky class is added to the navbar when it reaches its scroll position */

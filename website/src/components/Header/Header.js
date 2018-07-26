@@ -1,6 +1,7 @@
 import React from "react"
 import NavTitle from "./NavTitle/NavTitle"
 import NavTopfix from "./NavTopfix/NavTopfix"
+import styles from "./header.module.css"
 
 
 class Header extends React.Component {
@@ -14,7 +15,7 @@ class Header extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className={styles.container}>
         <NavTitle yscroll={this.props.yscroll} winwidth={this.props.winwidth}/>
       </div>
     )

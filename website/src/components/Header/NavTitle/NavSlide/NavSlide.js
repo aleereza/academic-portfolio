@@ -25,7 +25,7 @@ class NavSlide extends React.Component {
       [styles.open]: this.state.open,
     });
     return (
-      <div style={{position: "fixed", top: "0", left:"0", width:"100%", height:"100%", padding: "0", margin: "0"}}>
+      <div style={{position: "fixed", top: "0", left:"0", width:"100%", height:"100%", padding: "0", margin: "0", zIndex: "10"}}>
         <div className={styles.navbar}>
           <div className={styles.logocontainer}>
             <img className={styles.logo} src={logo}/>

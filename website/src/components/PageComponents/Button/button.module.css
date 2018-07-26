@@ -1,0 +1,30 @@
+/* UBC Colors
+UBC Blue: #002145
+Blue 1:   #0055B7
+Blue 2:   #00A7E1
+Blue 3:   #40B4E5
+Blue 4:   #6EC4E8
+Blue 5:   #97D4E9
+White:    #FFFFFF */
+
+.button {
+  color: #0055B7;
+  background-color: white;
+  border: 1px solid #0055B7;
+  border-radius: 2px;
+  padding: .5rem 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 100;
+  transition: background-color 150ms linear;
+}
+.button:hover {
+    background-color: #0055B7;
+    color: white;
+  }
+.button:active {
+  background-color: #002145;
+  }
+.button:focus {
+    outline:0;
+  }
