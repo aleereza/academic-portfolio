@@ -10,9 +10,7 @@ class Timeline extends React.Component {
   render() {
     return (
       <div className={styles.container}>
-        <div className={styles.header}>
-          <h2>Selected Honors</h2>
-        </div>
+      
         <div className={styles.timeline}>
 
           <TimelineBox

@@ -11,11 +11,6 @@ White:    #FFFFFF */
 
 }
 
-.header{
-  border-bottom: 1px solid grey;
-  text-align: center;
-}
-
 .timeline{
   position: relative;
   padding-top: 1rem;
@@ -27,6 +22,7 @@ White:    #FFFFFF */
   width: 4px;
   height: 100%;
   background-color: #002145;
+
   position: absolute;
   top: 0;
   left: 3rem;

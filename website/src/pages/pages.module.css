@@ -1,5 +1,15 @@
+/* UBC Colors
+UBC Blue: #002145
+Blue 1:   #0055B7
+Blue 2:   #00A7E1
+Blue 3:   #40B4E5
+Blue 4:   #6EC4E8
+Blue 5:   #97D4E9
+White:    #FFFFFF */
+
 .mainpic {
   width: 100%;
+  border-radius: 2px;
 }
 
 /* .helper {
@@ -13,6 +23,7 @@
   vertical-align: top;
   height: 100%;
   width: 29%;
+
 }
 
 
@@ -22,6 +33,21 @@
   width: 69%;
   padding-left: 1rem;
 
+}
+.timelinecontainer{
+  width: 60%;
+  margin: auto;
+}
+.timelineheader{
+  border-bottom: 1px solid grey;
+  text-align: center;
+  margin-top: 1rem;
+  background-color: silver;
+  border-radius: 2px;
+  color: #002145;
+}
+.timelineheader h2{
+  margin: 0;
 }
 
 .table {

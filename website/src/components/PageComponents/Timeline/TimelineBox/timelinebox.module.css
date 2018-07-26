@@ -57,7 +57,8 @@ White:    #FFFFFF */
   border-radius: 2px;
   border-left: 3px solid #002145;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .12), 0 1px 2px 0 rgba(0, 0, 0, .24);
-  background-color: #97D4E9;
+  /* background-color: #97D4E9; */
+  background-color: #c6d9ec;
 }
 
 .content p {
