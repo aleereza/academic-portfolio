@@ -54,7 +54,10 @@ class MainLayout extends React.Component {
             { name: 'description', content: 'Professor Emeritus, Electrical and Computer Engineering' },
             { name: 'keywords', content: 'Professor, UBC, Image Processing, Signal Processing'},
           ]}
-        />
+
+        >
+          <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet"/>
+        </Helmet>
         <Header yscroll={this.state.Yscroll} winwidth={this.state.Width}/>
           <Content yscroll={this.state.Yscroll} winwidth={this.state.Width}>
             {this.props.children()}
