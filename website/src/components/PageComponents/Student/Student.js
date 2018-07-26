@@ -7,6 +7,38 @@ class Student extends React.Component {
   };
 
   render() {
+    var graduation;
+    var supervisor;
+    var cosupervisor;
+
+    if (this.props.date == "ongoing") {
+      graduation =
+      <p>Ongoing</p>
+    }
+    else{
+      graduation =
+      <p><strong>Graduation date:</strong> {this.props.date}
+      </p>
+    }
+
+    if (this.props.supervisor == "") {
+      supervisor = <p></p>
+    }
+    else{
+      supervisor = <p><strong>Principal Supervisor:</strong> {this.props.supervisor}</p>
+    }
+
+    if (this.props.cosupervisor == "") {
+      cosupervisor = <p></p>
+    }
+    else{
+      cosupervisor = <p><strong>Co-Supervisor:</strong> {this.props.cosupervisor}</p>
+    }
+
+
+
+
+
     return (
       <div className={styles.container}>
         <div className={styles.name}>{this.props.name}
@@ -14,20 +46,16 @@ class Student extends React.Component {
         <div className={styles.detailcontainer}>
           <div className={styles.subdetailcontainer}>
             <div className={styles.programdatecontainer}>
-              <p>{this.props.program}
+              <p><strong>{this.props.program}</strong>
               </p>
-              <p>Graduation date: {this.props.date}
-              </p>
+              {graduation}
             </div>
             <div className={styles.supervisorcontainer}>
-              <p>{this.props.supervisor}
-              </p>
-              <p>{this.props.cosupervisor}
-              </p>
+              {supervisor} {cosupervisor}
             </div>
           </div>
           <div className={styles.statuscontainer}>
-            <p>{this.props.status}
+            <p><strong>Current Position:</strong> {this.props.status}
             </p>
           </div>
         </div>

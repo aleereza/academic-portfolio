@@ -1,3 +1,12 @@
+/* UBC Colors
+UBC Blue: #002145
+Blue 1:   #0055B7
+Blue 2:   #00A7E1
+Blue 3:   #40B4E5
+Blue 4:   #6EC4E8
+Blue 5:   #97D4E9
+White:    #FFFFFF */
+
 .container{
   widt
   h: 100%;
@@ -8,10 +17,19 @@
 .name{
   flex: 0 0 auto;
   width: 10rem;
+  background-color: #002145;
+  color: white;
+  text-align: center;
+  margin-right: 3px;
+  border-radius: 2px;
 }
 .detailcontainer{
-  flex: 1 0 auto;
-  /* display: flex; */
+  /* flex: 1 0 auto; */
+  flex: 1;
+  border: 1px solid #002145;
+  border-radius: 2px;
+  border-left: 3px solid #002145;
+  padding: .5rem;
 }
   .subdetailcontainer{
     display: flex;
@@ -22,11 +40,17 @@
     .supervisorcontainer{
       flex: 1 0 0;
     }
-    .subdetailcontainer p {
+    .subdetailcontainer p{
       line-height: 1;
       padding: 0;
       margin: 0;
     }
   .statuscontainer{
     width: 100%;
+  }
+  .statuscontainer p{
+    line-height: 1;
+    padding-top: .5rem;
+    margin: 0;
+    padding-bottom: 0;
   }
