@@ -12,11 +12,13 @@ White:    #FFFFFF */
   background-color: white;
   border: 1px solid #0055B7;
   border-radius: 2px;
-  padding: .5rem 2rem;
+  padding: 0 2rem;
   font-size: 1rem;
   cursor: pointer;
   font-weight: 100;
   transition: background-color 150ms linear;
+  margin: 1rem;
+  display: inline;
 }
 .button:hover {
     background-color: #0055B7;

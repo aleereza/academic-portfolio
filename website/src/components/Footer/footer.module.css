@@ -5,6 +5,9 @@
   left: 0;
   width: 100%;
   padding:0;
+  border-top: grey solid 1px;
+  background-color: #404040;
+  opacity: 0.95;
 }
 
 .footerdiv {
@@ -15,8 +18,9 @@
   padding-right: 1rem;
   padding-bottom: .5rem;
   max-width: 1280px;
-  border-top: grey solid 1px;
-  background-color: #F5F5F5;
+  color: silver;
+
+  /* background-color: #F5F5F5; */
   /* opacity: .8; */
 }
 
@@ -34,9 +38,12 @@
 
 /* 100% Width on Smaller Screens */
 @media only screen and (max-width: 992px){
-    .footerdiv {
-        width: 100%;
-    }
+  .footerdiv {
+      width: 100%;
+  }
+  .container {
+    position: static;
+  }
 }
 
 @media only screen and (max-width: 600px){

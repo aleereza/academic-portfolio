@@ -1,11 +1,11 @@
 .container {
    transition: opacity 2s;
 
-   width: 80%;
-   margin: auto;
-   max-width: 1280px;
+   width: 100%;
+
+
    /* border-bottom: grey solid 1px; */
-   background-color: #F5F5F5;
+   /* background-color: #F5F5F5; */
 
 }
 
@@ -26,14 +26,21 @@
 }
 
 .titlecontainer {
+
+  background: #002145;
+  /* transition: flex-grow 2s; */
+
+}
+
+.titlediv {
+  width: 80%;
+  margin: auto;
   white-space: nowrap;
   overflow-x: hidden;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background: #002145;
-  /* transition: flex-grow 2s; */
   display: flex;
 }
 
@@ -50,24 +57,39 @@
 }
 
 .navcontainer {
+  width: 100%;
+
+  /* max-width: 1280px;
+  margin: auto; */
+
+
+  /* border-bottom: grey solid 1px; */
+  z-index: 10;
+}
+.navdiv {
+  width: 80%;
+  max-width: 1280px;
+  margin: auto;
   display: flex;
   padding-left: 1rem;
   padding-right: 1rem;
-  background-color: #97D4E9;
+  /* background-color: #97D4E9; */
   border-bottom: grey solid 1px;
-  /* border-bottom: grey solid 1px; */
-  z-index: 10;
+  background-color: white;
+  opacity: 0.95;
+  /* -webkit-backdrop-filter: blur(5px); */
+  /* backdrop-filter: blur(5px); */
 }
 
 /* The sticky class is added to the navbar when it reaches its scroll position */
 .sticky {
   position: fixed;
   top: 0;
-  width: 80%;
+  /* width: 80%;
 
   display: flex;
   padding-left: 1rem;
-  padding-right: 1rem;
+  padding-right: 1rem; */
 }
 
 

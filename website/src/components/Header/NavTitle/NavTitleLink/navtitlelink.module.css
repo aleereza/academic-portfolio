@@ -2,14 +2,23 @@
   text-align: center;
   flex-direction: row;
   flex: 1 1 0;
-  border-bottom: #97D4E9 solid 3px;
-  border-top: #97D4E9 solid 3px;
+  /* border-bottom: #97D4E9 solid 3px;
+  border-top: #97D4E9 solid 3px; */
+  border-bottom: white solid 3px;
+  border-top: white solid 3px;
 
 }
 
 .container:hover{
   border-bottom: #002145 solid 3px;
+  transition: .3s;
+  /* font-weight: 500; */
   /* background-color: #40B4E5; */
+}
+.container:hover .link{
+  /* font-weight: 700; */
+  transition: .3s;
+  color: black;
 }
 
 .link {
@@ -20,9 +29,8 @@
 
   display: table-cell;
   vertical-align: middle;
+  /* vertical-align: bottom; */
   text-align: center;
-  /* position: absolute;
-  top: 50%; */
 }
 
 .innercontainer{

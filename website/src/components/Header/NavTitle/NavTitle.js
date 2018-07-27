@@ -51,17 +51,20 @@ class NavTitle extends React.Component {
       return (
         <div className={styles.container}>
           <div className={styles.titlecontainer}>
-            <div className={styles.namecontainer}>
-              <Link to="/">
-                <h1>Rabab Kreidieh Ward</h1>
-                <p className={styles.sub}>Professor Emeritus, Electrical and Computer Engineering</p>
-              </Link>
-            </div>
-            <div className={styles.logocontainer}>
-              <img className={styles.logo} src={logo}/>
+            <div className={styles.titlediv}>
+              <div className={styles.namecontainer}>
+                <Link to="/">
+                  <h1>Rabab Kreidieh Ward</h1>
+                  <p className={styles.sub}>Professor Emeritus, Electrical and Computer Engineering</p>
+                </Link>
+              </div>
+              <div className={styles.logocontainer}>
+                <img className={styles.logo} src={logo}/>
+              </div>
             </div>
           </div>
           <div className={navbarclass}>
+            <div className={styles.navdiv}>
             <NavTitleLink to="/">Home</NavTitleLink>
             <NavTitleLink to="/biography">Biography</NavTitleLink>
             <NavTitleLink to="/awards">Awards and Distinctions</NavTitleLink>
@@ -69,6 +72,7 @@ class NavTitle extends React.Component {
             <NavTitleLink to="/publications">Publications</NavTitleLink>
             <NavTitleLink to="/research">Research</NavTitleLink>
             <NavTitleLink to="/students">Mentoring and Students</NavTitleLink>
+            </div>
           </div>
         </div>
       )

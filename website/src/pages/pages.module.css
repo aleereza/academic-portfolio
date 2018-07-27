@@ -7,42 +7,42 @@ Blue 4:   #6EC4E8
 Blue 5:   #97D4E9
 White:    #FFFFFF */
 
+.container1 {
+  position: relative;
+  padding-left: 29%;
+}
+
 .mainpic {
   width: 100%;
   border-radius: 2px;
 }
 
-/* .helper {
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-} */
-
 .mainpicdiv {
-  display:inline-block;
-  vertical-align: top;
-  height: 100%;
-  width: 29%;
+  position: absolute;
+  left: 0;
 
+  width: 29%;
 }
 
 
 .intro {
-  display:inline-block;
-  height: 100%;
-  width: 69%;
   padding-left: 1rem;
-
+  text-align: justify;
+}
+.intro p{
+  margin: 0;
 }
 .timelinecontainer{
   width: 60%;
   margin: auto;
 }
 .timelineheader{
+  width: 60%;
+  margin: auto;
   border-bottom: 1px solid grey;
   text-align: center;
-  margin-top: 1rem;
-  background-color: silver;
+  margin-top: 2rem;
+  /* background-color: silver; */
   border-radius: 2px;
   color: #002145;
 }
@@ -64,4 +64,30 @@ White:    #FFFFFF */
 }
 .table td{
   border-bottom: grey solid 1px;
+}
+
+@media only screen and (max-width: 992px){
+
+
+  .timelinecontainer {
+    width: 100%;
+  }
+  .timelineheader{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .container1{
+    padding: 0;
+  }
+  .intro{
+    padding: 0;
+    margin-top: 1rem;
+  }
+  .mainpicdiv {
+    position: relative;
+    width: 60%;
+    margin: auto;
+  }
 }
