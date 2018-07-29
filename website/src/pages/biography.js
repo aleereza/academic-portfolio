@@ -1,8 +1,8 @@
 import React from 'react'
-//import Link from 'gatsby-link'
+import styles from "./pages.module.css"
 
 const BiographyPage = () => (
-  <div>
+  <div className={styles.pagecontainer}>
     <p>Dr. Rabab K. Ward is a Professor Emeritus in the Electrical and Computer Engineering Department at the University of British Columbia (UBC), Canada. She is Fellow of the Royal Society of Canada, the Institute of Electrical and Electronics Engineers, the Canadian Academy of Engineers, and the Engineering Institute of Canada. Amongst the many awards she has received are the UBC Applied Science Dean’s Medal of Distinction (2016); Killam Award for Excellence in Mentoring (2013); Career Achievement Award of CUFA, BC: the organization representing all professors and academic staff at BC's doctoral universities (2011); the IEEE Signal Processing Society top award "The Society Award" (2008); British Columbia's top engineering award "The RA McLachlan Memorial Award" (2006); and UBC Killam Research Prize (1998).
     </p>
     <p>Dr. Ward’s research interests focus on the areas of signal, image, and video processing. Her contributions include signal detection; image encoding, compression, recognition, restoration, and enhancement; and their combined applications in cable TV, HDTV, medical imaging, infant cry signals, and brain computer interfaces. Dr. Ward has published upwards of 195 refereed journal papers, 335 refereed conference articles, and holds eight patents related to picture monitoring, measurement, and noise reduction concerning cable television.  Applications of her work have been transferred to U.S. and Canadian industries. She is also the inventor of non-intrusive measurement methods for TV video impairments (licensed to Hewlett-Packard, 1995) and co-inventor of a non-interfering video system for measuring size and biomass of fish in cages and Tanks (licensed to J. B. Thompson and Associates, 1997).

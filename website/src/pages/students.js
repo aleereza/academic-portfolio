@@ -12,11 +12,11 @@ class StudentsPage extends React.Component {
 
 
     return (
-      <div>
-        <h3>Teaching:</h3>
+      <div className={styles.pagecontainer}>
+        <h1>Teaching</h1>
         <p>I have taught a large number of courses on a variety of subjects in Electrical and Computer Engineering. These include digital signal processing, digital image processing, communication theory, coding, control theory, discrete structural design, optimization, operations research, numerical computations, electromagnetic theory, computer programming, electrical machines, and electronics.
         </p>
-        <h3>Graduate Students Supervised</h3>
+        <h1>Graduate Students Supervised</h1>
         <p>I have supervised 42 Ph.D. students and around 50 Research Master students. All these graduates are presently employed both in Canada and across the world. Thirteen of them hold faculty jobs in universities.
         </p>
         <p>The Ph.D. theses of 7 of my Ph.D. students were nominated by UBC for best doctoral thesis award.
@@ -31,8 +31,8 @@ class StudentsPage extends React.Component {
             status={row.node.status}
           />
         ))}
-        <h3>Other supervision of highly qualified people</h3>
-        <h4>Post Doctoral Fellows:</h4>
+        <h1>Supervision of other highly qualified people</h1>
+        <h2>Post Doctoral Fellows:</h2>
         <ul>
           <li>Shi, Pingnan, May 1991 ‑ April 1992</li>
           <li>Zhang, Qin, September 1990 ‑ June 1992</li>
@@ -50,7 +50,7 @@ class StudentsPage extends React.Component {
           <li>Xun Chen, June 2014 till March 2015</li>
           <li>El-Gendi, Mohamed, June 2016 – Present</li>
         </ul>
-        <h4>Research Engineers Employed:</h4>
+        <h2>Research Engineers Employed:</h2>
         <ul>
           <li>Dr. Pingnan, Shi, 1992‑1995</li>
           <li>Dr. Zhang, Qin, 1992‑1995</li>
@@ -68,7 +68,7 @@ class StudentsPage extends React.Component {
         </ul>
         <p>I have also supervised and employed a large number of undergraduate Students (around 35) as Research Students in my lab.
         </p>
-        <h4>External Ph.D. thesis examiner</h4>
+        <h2>External Ph.D. thesis examiner</h2>
         <ul>
           <li>External examiner of Kemal Ugur, Ph.D.  dissertation ,Tampere University of Technology, Finland, July 2010</li>
           <li>External Examine for Mr. Diego Sorrentino, Univ of Victoria, July 2009</li>

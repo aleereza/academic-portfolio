@@ -1,38 +1,38 @@
 import React from 'react'
-//import Link from 'gatsby-link'
+import styles from "./pages.module.css"
 
 const AwardsPage = () => (
-  <div>
-    <h3>Fellowships:</h3>
+  <div className={styles.pagecontainer}>
+    <h2>Fellowships</h2>
     <ul>
       <li>Fellow of the Canadian Academy of Engineers, since 2001.</li>
       <li>Fellow of the Royal Society of Canada, since 1999.</li>
       <li>Fellow of the IEEE, since 1998.</li>
       <li>Fellow of the Engineering Institute of Canada, since 1997.</li>
     </ul>
-    <h3>Awards for Mentoring:</h3>
+    <h2>Awards for Mentoring</h2>
     <ul>
       <li>Recipient of the Outstanding Mentor/Sponsor Award of Wendy McDonald Awards, 2017.</li>
       <li>Killam Award for Excellence in Mentoring, UBC, 2013.</li>
     </ul>
     <p>These mentoring awards are the most satisfying to me, and the dearest awards to my heart, as my strongest passion is to work, help and mentor students.
     </p>
-    <h3>Awards for Service:</h3>
+    <h2>Awards for Service</h2>
     <ul>
       <li>Meritorious Service Award of IEEE Signal Processing Society, 2013.</li>
       <li>UBC Engineering Co-op “Faculty of the Year“ Award, 2010.</li>
     </ul>
-    <h3>Awards for Academic Excellence:</h3>
+    <h2>Awards for Academic Excellence</h2>
     <ul>
       <li>Recipient of Centennial Gold Medal, UBC Applied Science, 2016.</li>
       <li>CUFA BC “Career Achievement Award”, May 2011. (CUFA is the association representing all professors in all B.C. universities). This is the highest of the 3 awards it gives each year.</li>
       <li>“Distinction Award” for being the first in Lebanon in the 1960 Scientific Baccalaureate national Exam. All students in Lebanon had to take this exam or another one if they were not in the science stream.</li>
     </ul>
-    <h3>Prizes for Research Excellence:</h3>
+    <h2>Prizes for Research Excellence</h2>
     <ul>
       <li>Recipient of the UBC Killam Research Prize, 1998.</li>
     </ul>
-    <h3>Awards for Leadership and Research and Professional Achievements:</h3>
+    <h2>Awards for Leadership and Research and Professional Achievements</h2>
     <ul>
       <li>Paradigm Shifter Award of the Society for Canadian Women in Science and Technology, Nov 2011.</li>
       <li>Millennium Award, IEEE Vancouver Chapter, Aug 2011.</li>
@@ -41,7 +41,7 @@ const AwardsPage = () => (
       <li>R.A. McLachlan Award of the Association of Professional Engineers and Geoscientists of British Columbia, 2007. Amongst its nine awards, this is the top and most prestigious, emphasizing education, research, innovation in engineering, and community service.</li>
       <li>Registered Professional Engineer (of the BC Professional Engineers Association).</li>
     </ul>
-    <h3>Best Paper Awards:</h3>
+    <h2>Best Paper Awards</h2>
     <ul>
       <li>Best Paper Award of IS&T International Symposium on Electronic Imaging, “Fast Edge-Directed Single Image Super-resolution” by N. Rouf and R. K. Ward, 2016.</li>
       <li>Our paper “Conversion of H.264 Encoded 2D Video to 3D Format” received the Best Paper Award of the IEEE International Conference on Consumer Electronics, January 2010.</li>
@@ -60,7 +60,7 @@ const AwardsPage = () => (
       </li>
       <li>The Rhodesian Institution of Engineers Award for 1978-1979 for the paper "Operations Research and Applications for Rhodesia".</li>
     </ul>
-    <h3>Scholarships and Early Distinctions Awards:</h3>
+    <h2>Scholarships and Early Distinctions Awards</h2>
     <ul>
     <li>Full scholarship from the Lebanese Council for Scientific Research to do graduate work in Electrical Engineering in Berkeley, California (5 years).</li>
     <li>Won the Egyptian government scholarship award to study engineering or medicine (5 years).</li>

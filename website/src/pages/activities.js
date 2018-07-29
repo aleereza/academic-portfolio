@@ -14,28 +14,26 @@ class ActivitiesPage extends React.Component {
     const otherservicestabledata = this.props.data.allActivitiesOtherServicesTable.edges
 
     return (
-  <div>
-    <h3>Videos to  Raise Awareness about Engineering</h3>
+  <div className={styles.pagecontainer}>
+    <h1>Videos to  Raise Awareness about Engineering</h1>
     <p>Dr. Ward noticed a lack of understanding and appreciation by the general public of engineering . So she set to produce videos to raise the awareness about  “signal processing’  ,her  field of expertise in engineering  . She co-directed and/or co-produced many videos which had thousands of hits on YouTube  and have been used extensively by professors to attract students to the field . Amongst these are the following 6 videos she has conceived and produced or directed
     </p>
-    <li>The following are six of Dr. Ward’s frequently used videos:
-      <ul>
-        <li><a href="https://www.youtube.com/watch?v=EErkgr1MWw0">What is Signal Processing?</a>
-        </li>
-        <li><a href="https://www.youtube.com/watch?v=MFsxuO8HC7k">Signal Processing and Machine learning</a>
-        </li>
-        <li><a href="https://www.youtube.com/watch?v=Vcii84n7piw&t=2s">Under the Radar</a>
-        </li>
-        <li><a href="https://www.youtube.com/watch?v=NRRzs0bB0a0">Multimedia Forensics</a>
-        </li>
-        <li><a href="https://www.youtube.com/watch?v=T0VPjHwrc-o&t=6s">Signal Processing in Free Viewpoint Television</a>
-        </li>
-        <li><a href="https://www.youtube.com/watch?v=yKEkqqBvaIo">The Benefits of Spoken Language Technologies</a>
-        </li>
-      </ul>
-    </li>
-    <h3>IEEE  Accomplisemnets and Avtivities Memberships </h3>
-    <h4>IEEE COMMITTEES/BOARDS:</h4>
+    <ul>The following are six of Dr. Ward’s frequently used videos:
+      <li><a href="https://www.youtube.com/watch?v=EErkgr1MWw0">What is Signal Processing?</a>
+      </li>
+      <li><a href="https://www.youtube.com/watch?v=MFsxuO8HC7k">Signal Processing and Machine learning</a>
+      </li>
+      <li><a href="https://www.youtube.com/watch?v=Vcii84n7piw&t=2s">Under the Radar</a>
+      </li>
+      <li><a href="https://www.youtube.com/watch?v=NRRzs0bB0a0">Multimedia Forensics</a>
+      </li>
+      <li><a href="https://www.youtube.com/watch?v=T0VPjHwrc-o&t=6s">Signal Processing in Free Viewpoint Television</a>
+      </li>
+      <li><a href="https://www.youtube.com/watch?v=yKEkqqBvaIo">The Benefits of Spoken Language Technologies</a>
+      </li>
+    </ul>
+    <h3>IEEE  Accomplisemnets and Avtivities</h3>
+    <h4>IEEE Committees/Boards:</h4>
     <ul>
       <li>Chair, TAB Ad-Hoc Committee on Africa and Education (2016-2017)</li>
       <li>Member At-Large, TAB Strategic Planning Committee (2017)</li>
@@ -123,35 +121,7 @@ class ActivitiesPage extends React.Component {
       <li>Assoc. Editor, Jour. of Electronic Imaging (SPIE), 2001‑2006.</li>
       <li>Member of the Editorial Board of the IEEE Signal Processing Magazine, Jan 2006-2009</li>
     </ul>
-    <h4>Reviewer (journal, agency, etc. including dates)</h4>
-    <ul>
-      <li>NSERC Disvovery Grants reviewer (Reviewd 1-4 applications yearly)</li>
-      <li>Biomedical Signal Processing & Control</li>
-      <li>Journal of Real-Time Processing</li>
-      <li>Computer Vision and Image Understanding</li>
-      <li>Journal of Neural Engineering</li>
-      <li>IEEE Trans. on Multimedia</li>
-      <li>IEEE Trans. on Automotive Control</li>
-      <li>IEEE Trans. on Communication</li>
-      <li>IEEE Trans. on Image Processing</li>
-      <li>IEEE Trans. on Pattern Analysis & Machine Intelligence</li>
-      <li>IEEE Trans. on Signal Processing (previously ASSP)</li>
-      <li>IEEE Trans. on Systems, Man and Cybernetics</li>
-      <li>Jour. of the Can. Soc. of Comp. & Electrical Engineers</li>
-      <li>Jour. of Visual Communication & Image Representation</li>
-      <li>Jour. of the Optical Society of America A Applied Optics</li>
-      <li>Optimal Control: Applications and Methods</li>
-      <li>IEE Proceedings on Vision, Image and Signal Processing</li>
-      <li>IEE Electronics Letters</li>
-      <li>The Computer Journal</li>
-      <li>Computational Intelligence and Neuroscience</li>
-      <li>Investigative Optholomogy and Visual Science</li>
-      <li>Elsevier Digital Signal Processing Journ.</li>
-      <li>EURASIP Jour. On Advances in Signal Processing</li>
-      <li>Banff  International Research Station workshops 3 to 5 proposal yearly</li>
-      <li>Book proposal reviewer: have reviewed few books, (in 2010 reveiwed Multilinear Subspace Learning: Dimensionality Reduction of Tensors, names of authots cannot be includede for confidentiaility)</li>
-      <li>Several Conferences (too many to state here)</li>
-    </ul>
+
     <h4>Consultant</h4>
     <ul>
       <li>MDA , Vancouver , 2013-2014</li>
@@ -270,30 +240,32 @@ export const query = graphql
   }
 `;
 
-// export const query2 = graphql
-// `
-//   query MembershipQuery {
-//     allActivitiesMembershipTableCsv {
-//       edges {
-//         node {
-//           organization
-//           committee
-//           start
-//           end
-//         }
-//       }
-//     }
-//   }
-// `;
-  // query MembershipQuery {
-  //   allActivitiesMembershipTableCsv {
-  //     edges {
-  //       node {
-  //         organization
-  //         committee
-  //         start
-  //         end
-  //       }
-  //     }
-  //   }
-  // }
+// <h4>Reviewer (journal, agency, etc. including dates)</h4>
+// <ul>
+//   <li>NSERC Disvovery Grants reviewer (Reviewd 1-4 applications yearly)</li>
+//   <li>Biomedical Signal Processing & Control</li>
+//   <li>Journal of Real-Time Processing</li>
+//   <li>Computer Vision and Image Understanding</li>
+//   <li>Journal of Neural Engineering</li>
+//   <li>IEEE Trans. on Multimedia</li>
+//   <li>IEEE Trans. on Automotive Control</li>
+//   <li>IEEE Trans. on Communication</li>
+//   <li>IEEE Trans. on Image Processing</li>
+//   <li>IEEE Trans. on Pattern Analysis & Machine Intelligence</li>
+//   <li>IEEE Trans. on Signal Processing (previously ASSP)</li>
+//   <li>IEEE Trans. on Systems, Man and Cybernetics</li>
+//   <li>Jour. of the Can. Soc. of Comp. & Electrical Engineers</li>
+//   <li>Jour. of Visual Communication & Image Representation</li>
+//   <li>Jour. of the Optical Society of America A Applied Optics</li>
+//   <li>Optimal Control: Applications and Methods</li>
+//   <li>IEE Proceedings on Vision, Image and Signal Processing</li>
+//   <li>IEE Electronics Letters</li>
+//   <li>The Computer Journal</li>
+//   <li>Computational Intelligence and Neuroscience</li>
+//   <li>Investigative Optholomogy and Visual Science</li>
+//   <li>Elsevier Digital Signal Processing Journ.</li>
+//   <li>EURASIP Jour. On Advances in Signal Processing</li>
+//   <li>Banff  International Research Station workshops 3 to 5 proposal yearly</li>
+//   <li>Book proposal reviewer: have reviewed few books, (in 2010 reveiwed Multilinear Subspace Learning: Dimensionality Reduction of Tensors, names of authots cannot be includede for confidentiaility)</li>
+//   <li>Several Conferences (too many to state here)</li>
+// </ul>

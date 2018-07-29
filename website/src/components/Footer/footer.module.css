@@ -8,6 +8,7 @@
   border-top: grey solid 1px;
   background-color: #404040;
   opacity: 0.95;
+  z-index: 10;
 }
 
 .footerdiv {

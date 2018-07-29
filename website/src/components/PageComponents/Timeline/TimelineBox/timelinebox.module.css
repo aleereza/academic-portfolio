@@ -24,7 +24,7 @@ White:    #FFFFFF */
 
   position: absolute;
   left: 0;
-  z-index: -1;
+  z-index: 0;
   top: 50%;
   margin-top: -1px;
 }
@@ -44,12 +44,12 @@ White:    #FFFFFF */
   background-color: #002145;
   color: #97D4E9;
 
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   line-height: 2rem;
-  font-weight: 700;
+  font-weight: 400;
 
   border-radius: 2px;
-  border: 1px solid white;
+  border: 1px solid #c6d9ec;
 }
 
 .content{
@@ -59,6 +59,9 @@ White:    #FFFFFF */
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .12), 0 1px 2px 0 rgba(0, 0, 0, .24);
   /* background-color: #97D4E9; */
   background-color: #c6d9ec;
+
+  position: relative;
+  z-index: 1;
 }
 
 .content p {

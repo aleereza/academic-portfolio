@@ -1,9 +1,13 @@
-.container {
-
+.container h3{
+  margin: 0;
+}
+.container{
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 .title {
 
 }
 .container p{
-  
+
 }

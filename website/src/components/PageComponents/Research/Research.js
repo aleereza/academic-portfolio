@@ -9,7 +9,7 @@ class Research extends React.Component {
   render() {
     return (
       <div className={styles.container}>
-        <h4 className={styles.title}>{this.props.title}</h4>
+        <h3 className={styles.title}>{this.props.title}</h3>
         <p>{this.props.content}
         </p>
         {this.props.children}

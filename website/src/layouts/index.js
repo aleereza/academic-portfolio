@@ -56,7 +56,7 @@ class MainLayout extends React.Component {
           ]}
 
         >
-          <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet"/>
+          <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Serif" rel="stylesheet"/>
         </Helmet>
         <Header yscroll={this.state.Yscroll} winwidth={this.state.Width}/>
           <Content yscroll={this.state.Yscroll} winwidth={this.state.Width}>

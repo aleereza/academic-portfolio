@@ -1,5 +1,6 @@
 import React from 'react'
 import Research from "../components/PageComponents/Research/Research"
+import styles from "./pages.module.css"
 
 class ResearchPage extends React.Component {
   constructor(props) {
@@ -8,13 +9,14 @@ class ResearchPage extends React.Component {
 
   render() {
     return(
-      <div>
-        <h3>Areas of special interest and accomplishments</h3>
+      <div className={styles.pagecontainer}>
+        <h1>Areas of special interest and accomplishments</h1>
         <p>My research has mainly focused on the field of Signal Processing, dealing with the analysis, interpretation, and manipulation of signals that represent observable quantities. An unexhaustive list of these signals include audio, video, speech, image, geophysical, sonar, radar, medical, musical and communication. My research involves solving real-life issues using  signal processing theories and techniques.
         </p>
         <p>My projects, previous and on-going, include:
         </p>
-        <h3>Processing of Images:</h3>
+        <h1>My Research Projects</h1>
+        <h2>1. Processing of Images</h2>
         <Research
           title = "Image restoration and enhancement"
           content = "Amongst my work involving the restoration of noisy images blurred by different types of blur, my major contributions addressed random, time-varying blur and the restoration of stellar image"
@@ -27,7 +29,7 @@ class ResearchPage extends React.Component {
           title = "Automated Face recognition:"
           content = "Face Recognition that draws from a vast pool of stored faces and images, extracting a profile that most resembles a new facial image – these images usually varies in pose and illumination."
         />
-        <h3>Medical Image Processing:</h3>
+        <h2>2. Medical Image Processing</h2>
         <Research
           title = "Mammography (breast X-ray images):"
           content = "Assisting radiologists in detecting cancer as early as possible."
@@ -40,7 +42,7 @@ class ResearchPage extends React.Component {
           title = "Measuring the Length of Every Telomere in Every Chromosome:"
           content = "Using fluorescent microscopy to identify the lengths of telomeres (and determine individual longevity)."
         />
-        <h3>Processing of Video Signals:</h3>
+        <h2>3. Processing of Video Signals</h2>
         <Research
           title = "Automatic monitoring, measurement and testing of cable television:"
           content = "Allows cable operators to test and measure viewers’ picture quality without having to interrupt program transmissions."
@@ -53,7 +55,7 @@ class ResearchPage extends React.Component {
           title = "Information Management and Security in Internet Media-Sharing Social Networks:"
           content = "Concerns the protection of multimedia intellectual property rights and enhancing security; managing digital media objects and supporting automated network-service monitoring."
         />
-        <h3>Processing of 1-dimensional Signals:</h3>
+        <h2>4. Processing of 1-dimensional Signals:</h2>
         <Research
           title = "Brain–Computer Interface Systems:"
           content = "To enable people to carry a simple task such as moving a wheel chair forward or backward by using their bran signals only ( i.e. by thinking only)."
@@ -68,7 +70,7 @@ class ResearchPage extends React.Component {
         />
         <p>Early on, I worked on Modelling and Estimation of Systems and applied them to building an Econometric Model to forecast the electricity demand in Zimbabwe. My resulting program was adopted by the Zimbabwe Electricity Supply Commission.
         </p>
-        <h3>Sample Projects</h3>
+        <h1>Sample Projects</h1>
         <Research
           title = "Computed tomography (CT):"
           content = "developing sparsity-based algorithms for image reconstruction from a small number of noisy projection measurements. (i.e. by  using smaller X-Ray radiation exposure). Several algorithms that exploited the sparsity, self-similarity, and smoothness of the CT projections were developed. They effectively suppress noise without blurring the true measurements and remove streak artifacts from CT images. These artifacts are prevalent in CT images and can harm their diagnostic value."
@@ -116,7 +118,7 @@ class ResearchPage extends React.Component {
           title = "Reversible integer-to-integer wavelet/sub and transforms in the context of JPEG-2000 standardization effort."
           content = ""
         />
-        <h3>Invited Lectures </h3>
+        <h1>Invited Lectures </h1>
         <ul>
           <li>Invited Lecture “Multimedia, Brain-Computer Interfaces and Medical Instrumentation: Dispatches of a Pioneer Woman in Engineering Across Continents” UBC Senior Scholars Lecture Series, December 2017.</li>
           <li>Keynote speaker: The Fifth International Conference on Electronic Devices, Systems and Applications, RAK, United Arab Emirates, Dec 6-8, 2016</li>
@@ -161,7 +163,7 @@ class ResearchPage extends React.Component {
           <li>Invited to give two condensed courses on "Data Structures" and "Numerical Methods" in Al-Hazen Research Centre, Baghdad, Iraq, October‑November 1975.</li>
           <li>Invited to update a working model and a computer program (which I developed in 1977-1979) to forecast electricity needs for Zimbabwe. Work was sponsored by the Canadian International Development Agency (CIDA), April-June 1982.</li>
         </ul>
-        <h3>Demos/Presentations to Industry</h3>
+        <h1>Demos/Presentations to Industry</h1>
         <ul>
           <li>Presented and demonstrated a prototype on video noise reduction, enhancement, and resizing to Equator Inc. and Hewlett-Packard in August 2005; and to Enuclia Semiconductor in October, 2005.</li>
           <li>Presented and demonstrated our prototype on video picture enlargement to Rogers Cable TV and to Equator Inc., 2003.</li>
@@ -172,7 +174,7 @@ class ResearchPage extends React.Component {
           <li>Presented our work to a group of Hewlett Packard (Santa Rosa, Calif.) engineers who visited our lab and had discussions about our work, June 1992, January 1995.</li>
           <li>Presented our work to the Vice President and members of TCI (largest US cable company then ), Denver, Colorado, August, 1991,1996)</li>
         </ul>
-        <h3>Other Relevant Information:</h3>
+        <h1>Other Relevant Information:</h1>
         <p>The model I developed for forecasting electricity demand for Zimbabwe was adopted by the Zimbabwe Electricity Supply Commission in 1982 and used for several years.
         </p>
         <p>Our paper on the design of a brain-computer interface with a low false positive rate was nominated for the “Highlights of 2008” in the Journal of Neural Engineering. The selection was based on the number of citations and full text downloads the article has garnered, as well as the outstanding praise received from the journal’s referees.

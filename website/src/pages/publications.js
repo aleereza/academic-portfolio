@@ -1,5 +1,6 @@
 import React from 'react'
-import Publication from "../components/Content/Publication/Publication"
+import Publication from "../components/PageComponents/Publication/Publication"
+import styles from "./pages.module.css"
 
 class PublicationPage extends React.Component {
   constructor(props) {
@@ -12,9 +13,9 @@ class PublicationPage extends React.Component {
     const nonrefereedjournalsdata = this.props.data.allPublicationsNonrefereedJournals.edges
     const publicationspatentsdata = this.props.data.allPublicationsPatents.edges
     return (
-      <div>
-        <h2>Refereed Publications</h2>
-        <h3>Journals</h3>
+      <div className={styles.pagecontainer}>
+        <h1>Refereed Publications</h1>
+        <h2>Journals</h2>
         {refereedjournalsdata.map((row,i) => (
           <Publication key={i}
             number={i+1}
@@ -23,7 +24,7 @@ class PublicationPage extends React.Component {
             journal={row.node.journal}
           />
         ))}
-        <h3>Conference Proceedings</h3>
+        <h2>Conference Proceedings</h2>
         {refereedconferencesdata.map((row,i) => (
           <Publication key={i}
             number={i+1}
@@ -32,8 +33,8 @@ class PublicationPage extends React.Component {
             journal={row.node.journal}
           />
         ))}
-        <h2>Non-Refereed Publications</h2>
-        <h3>Journals</h3>
+        <h1>Non-Refereed Publications</h1>
+        <h2>Journals</h2>
         {nonrefereedjournalsdata.map((row,i) => (
           <Publication key={i}
             number={i+1}
@@ -42,12 +43,12 @@ class PublicationPage extends React.Component {
             journal={row.node.journal}
           />
         ))}
-        <h2>Books</h2>
+        <h1>Books</h1>
         <p>1. MRI: Physics, Image Reconstruction, and Analysis, Edited by A. Majumdar and R. K. Ward, CRC Press, 2015.
         </p>
         <p>2. Mentoring for Engineering Academia II, Edited by R. M. Gray, Sh. Hemami, E. Riskin, R. K. Ward, S. Brainard, P. Cosman, N.n Fortenberry, J. Rutledge, and T. Whitney, 2008.
         </p>
-        <h2>Chapters in Books</h2>
+        <h1>Chapters in Books</h1>
         <p>1. Faradj, F., Ward, R., and Birch, G., <strong>Using Autoregressive Models of Wavelet Bases in the Design of Mental Task-Based BCIs</strong>, in Brain-Coputer Interface Systems - Recent Progress and Future Prospects, ed. Reza Fazel-Rezai, InTech, ISBN 978-953-51-1134-4, 270 pages, June 2013.</p>
         <p>2. Angshul Majumdar and Rabab Ward, <strong>Multicoil Parallel MRI</strong>, in  Medical Imaging: Technology and Applications,EDITED BY TROY FARNCOMBE AND KRIS INIEWSKI,  Pages 485-528, CRC Press, 2013. </p>
         <p>3. Nezhadarya, E.,  Wang, Z. J.  and Ward, R. K., <strong>Image Watermarking in Higher-Order Gradient Domain</strong>, in Advances in Wavelet Theory and Their Applications in Engineering, Physics and Technology, Intech, ISBN 978-953-51-0494-0.</p>
@@ -61,7 +62,7 @@ class PublicationPage extends React.Component {
         <p>11. Kreidieh, R., <strong>Method of Estimation: Acreage Response Functions</strong> in Foreign Trade Regimes and Economic Development: Egypt, by Bent Hansen and K. Nashashibi. National Bureau of Economics Research, New York. Distributed by Columbia University Press, Conf. Series on Foreign Trade and Economic Development, Vol. IV, 1975, pp. 331‑341, in Appendix A.</p>
         <p>12. Hansen, B. and Kreidieh, R., <strong>An Afghanistan‑type Model for Simulating Fiscal, Monetary and Foreign Exchange Policy</strong>, Published by the Dept. Of Economics, University of California, Berkeley, California, Paper No. 25, April 1972, 144 pp.</p>
         <p>13. Kreidieh, R. and Tourk, K., <strong>Agricultural Supply Elasticities</strong>, in An Appraisal of Economic Development in Afghanistan, 1960‑1970, by Bent Hansen, Inst. of Intl. Studies, University of California, Berkeley, CA, Appendix 2, 1971, pp. 1‑4.</p>
-        <h2>Patents</h2>
+        <h1>Patents</h1>
         {publicationspatentsdata.map((row,i) => (
           <Publication key={i}
             number={i+1}
@@ -70,7 +71,7 @@ class PublicationPage extends React.Component {
             journal={row.node.journal}
           />
         ))}
-        <h2>Technical Reports</h2>
+        <h1>Technical Reports</h1>
         <p>1. A total of 3 progress reports on our findings regarding our project on “Facial Image Compression” were submitted to Sierra Consulting Ltd., & BC ASI. The dates these reports were submitted are Jan. 1995, April 1995 and Aug. 1995.</p>
         <p>2. A total of 25 reports on our findings regarding our projects, “Automatic Monitoring of the Quality of the Cable Television Picture,” “Noise Reduction in TV Pictures” and “Video Compression,” have been written for the Canadian Cable Labs Fund of the Rogers Cable Television Company. The dates these reports were submitted are Oct. 1990, Jan. 1991, April 1991, July 1991, Oct. 1991, Jan. 1992, April 1992, July 1992, Oct. 1992, Jan. 1993, April 1993, July 1993, Oct. 1993, Jan. 1994, April 1994, July 1994, Oct. 1994, Jan. 1995, April 1995, July 1995, Oct. 1995, April 1996, July 1996, Nov. 1996, Jan. 1997, March 1997, June 1997, Dec. 1997, March 1998 and July 1998.</p>
         <p>3. “An Econometric Model to Forecast Electricity Demand for Zimbabwe, An Update,” July 1982. No. of pages: 28. Invited research study organized by the University of Zimbabwe and co‑sponsored by CIDA. Organized by the International Development Office of the AUCC.</p>

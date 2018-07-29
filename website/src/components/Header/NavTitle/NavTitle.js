@@ -67,7 +67,7 @@ class NavTitle extends React.Component {
             <div className={styles.navdiv}>
             <NavTitleLink to="/">Home</NavTitleLink>
             <NavTitleLink to="/biography">Biography</NavTitleLink>
-            <NavTitleLink to="/awards">Awards and Distinctions</NavTitleLink>
+            <NavTitleLink to="/recognition">Recognition</NavTitleLink>
             <NavTitleLink to="/activities">Professional Activites</NavTitleLink>
             <NavTitleLink to="/publications">Publications</NavTitleLink>
             <NavTitleLink to="/research">Research</NavTitleLink>
@@ -82,7 +82,7 @@ class NavTitle extends React.Component {
         <NavSlide>
           <NavSlideLink to="/">Home</NavSlideLink>
           <NavSlideLink to="/biography">Biography</NavSlideLink>
-          <NavSlideLink to="/awards">Awards and Distinctions</NavSlideLink>
+          <NavSlideLink to="/recognition">Recognition</NavSlideLink>
           <NavSlideLink to="/activities">Professional Activites</NavSlideLink>
           <NavSlideLink to="/publications">Publications</NavSlideLink>
           <NavSlideLink to="/research">Research</NavSlideLink>
