@@ -44,7 +44,7 @@ White:    #FFFFFF */
   background-color: #002145;
   color: #97D4E9;
 
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 2rem;
   font-weight: 400;
 
@@ -58,7 +58,10 @@ White:    #FFFFFF */
   border-left: 3px solid #002145;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .12), 0 1px 2px 0 rgba(0, 0, 0, .24);
   /* background-color: #97D4E9; */
-  background-color: #c6d9ec;
+  /* background-color: #c6d9ec; */
+  background-color:#cce7f9;
+
+  font-size: .8rem;
 
   position: relative;
   z-index: 1;

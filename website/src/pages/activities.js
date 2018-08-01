@@ -32,8 +32,8 @@ class ActivitiesPage extends React.Component {
       <li><a href="https://www.youtube.com/watch?v=yKEkqqBvaIo">The Benefits of Spoken Language Technologies</a>
       </li>
     </ul>
-    <h3>IEEE  Accomplisemnets and Avtivities</h3>
-    <h4>IEEE Committees/Boards:</h4>
+    <h1>IEEE  Accomplisemnets and Avtivities</h1>
+    <h2>IEEE Committees/Boards:</h2>
     <ul>
       <li>Chair, TAB Ad-Hoc Committee on Africa and Education (2016-2017)</li>
       <li>Member At-Large, TAB Strategic Planning Committee (2017)</li>
@@ -41,7 +41,7 @@ class ActivitiesPage extends React.Component {
       <li>IEEE WIE Voting Committee (2018)</li>
       <li>Senior Member Selection Committee(1992, 1996, 2000)</li>
     </ul>
-    <h4>SOCIETY:</h4>
+    <h2>Society</h2>
     <ul>
       <li>President, IEEE Signal Processing Society (SPS) (2016-2017)</li>
       <li>President-Elect ,SPS (2014-2015)</li>
@@ -52,21 +52,21 @@ class ActivitiesPage extends React.Component {
       <li>Conference Board,SPS (2006-2007)</li>
       <li>Editorial Board of IEEE Signal Processing Magazine (2006-2009)</li>
     </ul>
-    <h4>REGION 7:</h4>
+    <h2>Region 7</h2>
     <ul>
       <li>Awards Committee (2013-2014, 2017)</li>
       <li>V.P. Western Canada (1990-1995), Canadian Society for Electrical and Computer Engineers (folded into IEEE)</li>
       <li>Co-founder, Vancouver SPS Chapter (2004)</li>
       <li>Chair, IEEE Vancouver Student Chapter (1985-1987)</li>
     </ul>
-    <h3>Service to  Other Professional Assocations</h3>
-    <h4>Women Organizations:</h4>
+    <h1>Service to  Other Professional Assocations</h1>
+    <h2>Women Organizations</h2>
     <ul>
       <li>University Women Graduate Association, 1980.</li>
       <li>Co-Founder Society for Canadian Women in Science and Technology 1979 to present.</li>
       <li>Academic Women&#39;s Association, UBC, Executive Board , 1982 to 198</li>
     </ul>
-    <h4>Advisory Boards:</h4>
+    <h2>Advisory Boards</h2>
     <ul>
       <li>Member of a 12 scientists committee to advise Her Highness Sheika Mozah (Qatar Foundation head) on how to establish and promote scientific research in Qatar (2006-2008).</li>
       <li>International Scientific Advisory Board of the BC Advanced Systems Institute 1996 to 2004</li>
@@ -74,17 +74,17 @@ class ActivitiesPage extends React.Component {
       <li>Canadian Academy for the Advancement of Science,1997 to 2007</li>
       <li>National Research Council ( NRC) of Canada on Information Technology, 1999 to 2001</li>
     </ul>
-    <h4>Royal Society of Canada:</h4>
+    <h2>Royal Society of Canada</h2>
     <ul>
       <li>Awards committee on Women  Students,  2003 to 2007</li>
       <li>Committee to select fellows of the Society (engineering category), 2012 to 2015</li>
     </ul>
-    <h4>National Science Foundation (USA):</h4>
+    <h2>National Science Foundation (USA):</h2>
     <ul>
       <li>NSF IGERT program Adjudication Committee  2001</li>
       <li>NSF committee to review the Integrated Media Systems Center, University of Southern California, 2002</li>
     </ul>
-    <h4>Others</h4>
+    <h2>Others</h2>
     <ul>
       <li>Canadian Society for Electrical and Computer Engineering VP for Western Canada , 1990 to 1995</li>
       <li>BCIT : External review committee; new Bachelor of Engineering in Electrical Engineering, 2006 to 2007</li>
@@ -95,7 +95,7 @@ class ActivitiesPage extends React.Component {
       <li>Member of a UBC three-people delegation (VP Research & International, Dean of Applied Science and I) that visited Saudi Arabia in April/May, 2010 to discuss research collaboration between Saudi Universities and UBC.</li>
       <li>UBC VPRI rep to the Middle East, 2010 to 2014</li>
     </ul>
-    <h4>Conference Participation (Organizer, Keynote Speaker, etc.)</h4>
+    <h1>Conference Participation (Organizer, Keynote Speaker, etc.)</h1>
 
     <table className={styles.table}>
       <tbody>
@@ -116,13 +116,13 @@ class ActivitiesPage extends React.Component {
       </tbody>
     </table>
 
-    <h4>Editorships</h4>
+    <h1>Editorships</h1>
     <ul>
       <li>Assoc. Editor, Jour. of Electronic Imaging (SPIE), 2001‑2006.</li>
       <li>Member of the Editorial Board of the IEEE Signal Processing Magazine, Jan 2006-2009</li>
     </ul>
 
-    <h4>Consultant</h4>
+    <h2>Consultant</h2>
     <ul>
       <li>MDA , Vancouver , 2013-2014</li>
       <li>AdvancedIO Systems Inc., 2007-2009</li>
@@ -134,7 +134,7 @@ class ActivitiesPage extends React.Component {
       <li>Arab Projects and Development on their project with the Iraqi Ministry of Planning "Five Year Plan for transportation development", June‑August 1974.</li>
       <li>Computer Modelling of Operations Decisions for the Okanagan Lakes System, January‑June 1973.</li>
     </ul>
-    <h4>Service to the non technical community</h4>
+    <h2>Service to the non technical community</h2>
     <ul>
       <li>Member of the RCMP Advisory Committee on deterring violence, 2005 – 2009.</li>
       <li>Speaker at the RCMP Conference on Community and Security, January 2002.</li>
@@ -149,8 +149,8 @@ class ActivitiesPage extends React.Component {
       <li>Gave a public speech outside the Student Union Building at UBC after the Montreal Massacre of women engineers, 1989.</li>
       <li>Gave seminars in various studios, and taught Middle East Dancing from 1982‑1989. Contributed articles to “Sahda,” BC’s Middle East dance association newsletter, and to “Arabesque,” an international magazine for Middle East dancing, published in New York. I also organized a 2-day workshop in Vancouver given by Ibrahim Farah of New York. Mr. Farah is internationally renowned as a master of Middle East dance. It was attended by 69 local dancers, and the evening dinners and shows were 100% booked, June 1988.</li>
     </ul>
-    <h3>SERVICE TO THE UNIVERSITY</h3>
-    <h4>Memberships in committees, including offices held and dates</h4>
+    <h1>Service to the university</h1>
+    <h2>Memberships in committees, including offices held and dates</h2>
 
     <table className={styles.table}>
       <tbody>
@@ -171,7 +171,7 @@ class ActivitiesPage extends React.Component {
       </tbody>
     </table>
 
-    <h4>Other service to University , including dates</h4>
+    <h2>Other service to University, including dates</h2>
 
     <table className={styles.table}>
       <tbody>

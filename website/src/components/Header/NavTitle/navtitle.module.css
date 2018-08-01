@@ -64,7 +64,8 @@
   background-color: white;
   opacity: 0.95;
 
-  box-shadow: 2px 0 3px black;
+  /* box-shadow: 2px 0 3px black; */
+  box-shadow: 0 2px 3px -2px black;
 }
 
 /* The sticky class is added to the navbar when it reaches its scroll position */

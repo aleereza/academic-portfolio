@@ -3,20 +3,17 @@ import styles from "./pages.module.css"
 
 const BiographyPage = () => (
   <div className={styles.pagecontainer}>
-    <p>Dr. Rabab K. Ward is a Professor Emeritus in the Electrical and Computer Engineering Department at the University of British Columbia (UBC), Canada. She is Fellow of the Royal Society of Canada, the Institute of Electrical and Electronics Engineers, the Canadian Academy of Engineers, and the Engineering Institute of Canada. Amongst the many awards she has received are the UBC Applied Science Dean’s Medal of Distinction (2016); Killam Award for Excellence in Mentoring (2013); Career Achievement Award of CUFA, BC: the organization representing all professors and academic staff at BC's doctoral universities (2011); the IEEE Signal Processing Society top award "The Society Award" (2008); British Columbia's top engineering award "The RA McLachlan Memorial Award" (2006); and UBC Killam Research Prize (1998).
-    </p>
-    <p>Dr. Ward’s research interests focus on the areas of signal, image, and video processing. Her contributions include signal detection; image encoding, compression, recognition, restoration, and enhancement; and their combined applications in cable TV, HDTV, medical imaging, infant cry signals, and brain computer interfaces. Dr. Ward has published upwards of 195 refereed journal papers, 335 refereed conference articles, and holds eight patents related to picture monitoring, measurement, and noise reduction concerning cable television.  Applications of her work have been transferred to U.S. and Canadian industries. She is also the inventor of non-intrusive measurement methods for TV video impairments (licensed to Hewlett-Packard, 1995) and co-inventor of a non-interfering video system for measuring size and biomass of fish in cages and Tanks (licensed to J. B. Thompson and Associates, 1997).
+    <p>Dr. Rabab K. Ward is a Professor Emeritus in the Electrical and Computer Engineering Department at the University of British Columbia (UBC), Canada. She is Fellow of the Royal Society of Canada, the Institute of Electrical and Electronics Engineers, the Canadian Academy of Engineers, and the Engineering Institute of Canada.  She has received many awards for her academic, research, service and leadership. Her research interests focus on the areas of signal, image, and video processing. Her contributions include signal detection; image encoding, compression, recognition, restoration, and enhancement; and their combined applications in cable TV, HDTV, medical imaging, infant cry signals, and brain computer interfaces. Dr. Ward has published upwards of 195 refereed journal papers, 335 refereed conference articles, and holds eight patents related to picture monitoring, measurement, and noise reduction concerning cable television. Applications of her work have been transferred to U.S. and Canadian industries. She is the inventor of non-intrusive measurement methods for TV video impairments (licensed to Hewlett-Packard, 1995) and co-inventor of a non-interfering video system for measuring size and biomass of fish in cages and Tanks (licensed to J. B. Thompson and Associates, 1997).
     </p>
     <p>Dr. Ward has served as the 2016-2017 President of the IEEE Signal Procession Society, after formerly holding the position of Vice President (2003 – 2005), and Member of the Board of Governors (2003 – 2005; 2008 – 2010). She was also the co-chair of the IEEE Signal Processing Society’s flagship conferences :ICASSP (2013) and ICIP (2000), as well as the vice chair of the IEEE International Symposium on Circuits & Systems (2004) and the chair of the IEEE ISSPIT (2006) and SPS MMSP( 2012)
     </p>
-    <p>Dr. Ward was the Principal Investigator of the $24.2 million CFI/BCKDF award: an award which results in the construction of a new building at UBC to house the most modern equipment available in the study of all areas concerning human centered technologies.
+    <p>She was the Principal Investigator of the $24.2 million CFI/BCKDF award: an award which results in the construction of a new building at UBC to house the most modern equipment available in the study of all areas concerning human centered technologies.
     </p>
+
     <ul>
-      <li>As a good will ambassador for women in STEM fields (focusing on engineering), Dr. Ward is one of the founders of the Society for Canadian Women in Science & Technology. Under the guidance of her and her peers, the society has successfully introduced programs to support high school girls with mathematics, as well as provide hands-on experience with science and technology. Dr. Ward has also presented countless times to elementary and high schools on the power of engineering.
+      <li><strong>As a good will ambassador for women</strong> in STEM fields (focusing on engineering), Dr. Ward is one of the founders of the Society for Canadian Women in Science & Technology. Under the guidance of her and her peers, the society has successfully introduced programs to support high school girls with mathematics, as well as provide hands-on experience with science and technology. Dr. Ward has also presented countless times to elementary and high schools on the power of engineering.
       </li>
-      <li>Dr. Ward’s interactions with students had evidenced to her a general lack of understanding concerning engineering. To address this issue and raise awareness, she has taken an active role in producing digital material surrounding “signal processing” – her field of expertise in engineering. Dr. Ward has co-directed/co-produced an extensive collection of videos, many of which professors use to attract students to the STEM fields.
-      </li>
-      <li>The following are six of Dr. Ward’s frequently used videos:
+      <li><strong>As a good will ambassador for engineering</strong>, she has taken an active role in raising the awareness and increasing the appreciation of engineering by the public. She has co-directed/co-produced digital material surrounding “signal processing” – her field of expertise in engineering. The following are six of Dr. Ward’s frequently used videos that have been extensively used to attract student  to the filed:
         <ul>
           <li><a href="https://www.youtube.com/watch?v=EErkgr1MWw0">What is Signal Processing?</a>
           </li>
@@ -32,26 +29,17 @@ const BiographyPage = () => (
           </li>
         </ul>
       </li>
-      <li>Dr. Ward was the first woman appointed as a professor in engineering in both British Columbia and Zimbabwe. She was also the first woman to become a member of the Lebanese Professional Engineering Society, and the second woman to get her PH.D. in Electrical Engineering at the University of California, Berkley.
-      </li>
-      <li>Dr. Ward is the only woman recipient of the IEEE SPS “Society Award” – the highest award possible – for outstanding technical contributions and leadership. She was also the first woman to win the RA Machlachlan Award: the highest award offered by the Association of Professional Engineers in BC, emphasizing significant technical contributions, and leadership, in engineering. Dr. Ward was also the first woman in Electrical Engineering to become a Fellow of the Royal Society of Canada (1999) – one of only three people selected from the engineering and applied science category.
-      </li>
-      <li>Dr. Ward was appointed as one among a 12 scientist committee to advise Her Highness Sheika Mozah – Head of the Qatar Foundation – on establishing and promoting scientific research in Qatar (2006 – 2008). She was a member of the UBC Committee that planned the Kuwait Institute for Business and Technology (2001 – 2004). She was also the UBC VPRI special advisor on collaboration with the Middle East. Dr. Ward has also led the IEEE Tab Committee on Africa and Education.
-      </li>
-      <li>Dr. was the chief scientist of “Ward Laboratories Inc.”: a spin-off company bearing her name (1993 – 2006). The company signed an agreement with UBC to license patents and information, developed by Dr. Ward and her associates, relating to cable television picture-quality monitoring, measurement, and noise reduction.
-        <ul>
-          <li>Helwitt-Packard holds an exclusive license for her invention (See: Patent #6) for a non-intrusive method of testing of cable TV performance and allowing cable TV operators (for the first time) to measure picture quality of TV pictures without interrupting program transmission.
-          </li>
-        </ul>
-      </li>
-      <li>Dr. Ward’s work on reducing noise in television and video signals attracted leading, international companies to observe and appraise the prototypes the Doctor and her students had developed.
-        <ul>
-          <li>Vice-Presidents and engineers from companies Scientific Atlanta, Level I, Sanyo, Sony, Cannon, Daikin, RainMaker, Midnet, MDSI, Sierra Consulting Ltd., Rogers Cable TV, Shaw Cable TV, JB Thompson & Assoc. Ltd., Hewlett Packard, TCI, Equator, Mosaid, Pioneer and General Instruments visited her lab (1995 – 2005).
-          </li>
-          <li>Although several other industries and universities had been working on similar prototypes, the products developed by Dr. Ward exceeded all other prototypes, including those of Sony, Panasonic and Intelvideo in both quality and cost range.
-          </li>
-        </ul>
-      </li>
+    </ul>
+
+
+    <h1>A Pioneering Woman in engineering</h1>
+    <p>Dr. Ward was the first woman appointed as a professor in engineering in both British Columbia and Zimbabwe. She was also the first woman to become a member of the Lebanese Professional Engineering Society, and the second woman to get her PH.D. in Electrical Engineering at the University of California, Berkley.
+    </p>
+    <p>Dr. Ward is the only woman recipient of the IEEE SPS “Society Award” – the highest award possible – for outstanding technical contributions and leadership. She was also the first woman to win the RA Machlachlan Award: the highest award offered by the Association of Professional Engineers in BC, emphasizing significant technical contributions, and leadership, in engineering. Dr. Ward was also the first woman in Electrical Engineering to become a Fellow of the Royal Society of Canada (1999) – one of only three people selected from the engineering and applied science category.
+    </p>
+
+    <h1>Recognition by Popular Print and Broadcast Media</h1>
+    <ul>
       <li>Much of Dr. Ward’s research has been showcased in various magazines, journals and newsletters.
         <ul>
           <li>Her work on facial image compression was featured in the ASI Journal (April 1995), and written about in the Vancouver Province newspaper (April 1995).
@@ -85,6 +73,27 @@ const BiographyPage = () => (
         </ul>
       </li>
     </ul>
+
+    <h1>Other Works and Information</h1>
+    <ul>
+      <li>Dr. Ward was appointed as one among a 12 scientist committee to advise Her Highness Sheika Mozah – Head of the Qatar Foundation – on establishing and promoting scientific research in Qatar (2006 – 2008). She was a member of the UBC Committee that planned the Kuwait Institute for Business and Technology (2001 – 2004). She was also the UBC VPRI special advisor on collaboration with the Middle East. Dr. Ward has also led the IEEE Tab Committee on Africa and Education.
+      </li>
+      <li>Dr. was the chief scientist of “Ward Laboratories Inc.”: a spin-off company bearing her name (1993 – 2006). The company signed an agreement with UBC to license patents and information, developed by Dr. Ward and her associates, relating to cable television picture-quality monitoring, measurement, and noise reduction.
+        <ul>
+          <li>Helwitt-Packard holds an exclusive license for her invention (See: Patent #6) for a non-intrusive method of testing of cable TV performance and allowing cable TV operators (for the first time) to measure picture quality of TV pictures without interrupting program transmission.
+          </li>
+        </ul>
+      </li>
+      <li>Dr. Ward’s work on reducing noise in television and video signals attracted leading, international companies to observe and appraise the prototypes the Doctor and her students had developed.
+        <ul>
+          <li>Vice-Presidents and engineers from companies Scientific Atlanta, Level I, Sanyo, Sony, Cannon, Daikin, RainMaker, Midnet, MDSI, Sierra Consulting Ltd., Rogers Cable TV, Shaw Cable TV, JB Thompson & Assoc. Ltd., Hewlett Packard, TCI, Equator, Mosaid, Pioneer and General Instruments visited her lab (1995 – 2005).
+          </li>
+          <li>Although several other industries and universities had been working on similar prototypes, the products developed by Dr. Ward exceeded all other prototypes, including those of Sony, Panasonic and Intelvideo in both quality and cost range.
+          </li>
+        </ul>
+      </li>
+    </ul>
+
   </div>
 )
 

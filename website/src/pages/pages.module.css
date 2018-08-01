@@ -45,7 +45,8 @@ White:    #FFFFFF */
 .container2{
   /* background-color: #97D4E9; */
   border-top: 1px solid #002145;
-  background-color: #93abd1;
+  /* background-color: #93abd1; */
+  background-color: #e0f2ff;
   max-width: 1280px;
   margin: 0 auto;
     /* opacity: .8; */
@@ -77,6 +78,7 @@ White:    #FFFFFF */
   vertical-align: middle;
 
   color: white;
+  font-size: 1.1rem;
   /* text-shadow: -1px 0px white, 0 1px white, 1px 0 white, 0 -1px white; */
 
   /* position: absolute; */
@@ -105,21 +107,26 @@ White:    #FFFFFF */
   /* border-radius: 2px; */
   color: #002145;
 }
-.timelineheader h2{
-  margin: 0;
+.timelineheader h3{
+  /* margin: 0; */
   color: #002145;
 }
 
 .table {
   margin-bottom: 1rem;
+  /* border-radius: 50px; */
 }
 
 .table th{
   text-align: center;
-  background-color: #CCCCCC;
+  padding: .25rem;
+  /* background-color: #CCCCCC; */
+  background-color: #002145;
+  color: white;
 }
 .table td{
-  background-color: #e6f2ff;
+  /* background-color: #e6f2ff; */
+  background-color: #cae4f7;
   padding: .25rem;
 }
 .table td{

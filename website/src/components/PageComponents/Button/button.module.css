@@ -13,10 +13,14 @@ White:    #FFFFFF */
   /* border: 1px solid #0055B7; */
   border: 1px solid #002145;
   border-radius: 2px;
-  padding: 0 2rem;
-  font-size: 1rem;
+  padding: .2rem 2rem;
+  /* vertical-align: middle; */
+  /* font-size: 1rem;
+  line-height: 1rem;
+  margin:0; */
+  /* height: 2rem; */
   cursor: pointer;
-  font-weight: 100;
+  font-weight: 400;
   transition: background-color 150ms linear;
   /* margin: 1rem; */
   display: inline;

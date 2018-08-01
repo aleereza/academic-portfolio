@@ -28,7 +28,7 @@ const IndexPage = () => (
         <p><Button to={CV}>CV</Button></p>
       </div>
       <div className={styles.timelineheader}>
-        <h2>Selected Honors</h2>
+        <h3>Selected Honors</h3>
       </div>
       <div className={styles.timelinecontainer}>
         <Timeline/>
