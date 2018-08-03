@@ -3,7 +3,7 @@ import styles from "./navslide.module.css"
 import cx from "classnames";
 import MenuButton from "../MenuButton/MenuButton"
 import Link from 'gatsby-link'
-import logo from "../../../../images/UBC-logo-white.png"
+import logo from "../../../images/UBC-logo-white.png"
 
 class NavSlide extends React.Component {
   constructor(props) {
@@ -21,11 +21,24 @@ class NavSlide extends React.Component {
     //   containerClasses.push("open")
     // }
 
-    let className = cx(styles.sidenav_container, {
+    let sidenav_container1 = cx(styles.sidenav_container1, {
+      [styles.sidenav_container1_disp]: this.state.open,
+    });
+
+    let sidenav_container2 = cx(styles.sidenav_container2, {
       [styles.open]: this.state.open,
     });
+
+    var w;
+    if (this.state.open){
+      w = "100%";
+    }
+    else{
+      w = "0";
+    }
+
     return (
-      <div style={{position: "fixed", top: "0", left:"0", width:"100%", height:"100%", padding: "0", margin: "0", zIndex: "10"}}>
+      <div>
         <div className={styles.navbar}>
           <div className={styles.logocontainer}>
             <img className={styles.logo} src={logo}/>
@@ -40,11 +53,13 @@ class NavSlide extends React.Component {
             <MenuButton state={!this.state.open}/>
           </div>
         </div>
-        <div className={className}>
-          <div className={styles.sidenav} onClick={() => this.ChangeNav()}>
-            {this.props.children}
-          </div>
+
+
+        <div className={styles.sidenav} style={{width: w}} onClick={() => this.ChangeNav()}>
+          {this.props.children}
         </div>
+
+
       </div>
     );
   }

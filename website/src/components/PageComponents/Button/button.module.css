@@ -6,19 +6,20 @@ Blue 3:   #40B4E5
 Blue 4:   #6EC4E8
 Blue 5:   #97D4E9
 White:    #FFFFFF */
+.container {
+  margin-top: .5rem;
+}
+
 
 .button {
   color: #002145;
   background-color: #93abd1;
-  /* border: 1px solid #0055B7; */
+  background-color: white;
+
   border: 1px solid #002145;
   border-radius: 2px;
   padding: .2rem 2rem;
-  /* vertical-align: middle; */
-  /* font-size: 1rem;
-  line-height: 1rem;
-  margin:0; */
-  /* height: 2rem; */
+
   cursor: pointer;
   font-weight: 400;
   transition: background-color 150ms linear;

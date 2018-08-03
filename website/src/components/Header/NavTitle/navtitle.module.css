@@ -3,68 +3,21 @@
    width: 100%;
 }
 
-.titlecontainer {
-  background: #002145;
-}
-
-.titlediv {
-  /* width: 80%; */
-  max-width: 1280px;
-  margin: auto;
-  white-space: nowrap;
-  overflow-x: hidden;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  display: flex;
-}
-
-.namecontainer{
-  flex: 1 1 auto;
-}
-
-.namecontainer h1 {
-  margin: 0;
-  padding: 0;
-  font-weight: 600;
-  line-height: 1;
-  color: #FFFFFF;
-  font-size: 2.5rem;
-}
-
-.sub {
-  margin: 0;
-  font-weight: 500;
-  line-height: 1;
-  color: #FFFFFF;
-}
-
-.logocontainer{
-  flex: 0 1 auto;
-}
-
-.logo{
-  height: 3.5rem;
-}
-
 .navcontainer {
   width: 100%;
   z-index: 10;
 }
+
 .navdiv {
-  /* width: 80%; */
   max-width: 1280px;
   margin: auto;
   display: flex;
   padding-left: 1rem;
   padding-right: 1rem;
-  /* background-color: #97D4E9; */
   border-bottom: grey solid 1px;
   background-color: white;
   opacity: 0.95;
 
-  /* box-shadow: 2px 0 3px black; */
   box-shadow: 0 2px 3px -2px black;
 }
 
@@ -72,21 +25,4 @@
 .sticky {
   position: fixed;
   top: 0;
-  /* width: 80%;
-
-  display: flex;
-  padding-left: 1rem;
-  padding-right: 1rem; */
-}
-
-
-
-
-
-
-/* 100% Width on Smaller Screens */
-@media only screen and (max-width: 992px){
-    .container {
-        width: 100%;
-    }
 }

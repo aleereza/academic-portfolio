@@ -8,9 +8,11 @@ class Button extends React.Component {
   }
   render() {
     return (
+      <div className={styles.container}>
         <a href={this.props.to} download className={styles.button}>
           {this.props.children}
         </a>
+      </div>
     );
   }
 }
