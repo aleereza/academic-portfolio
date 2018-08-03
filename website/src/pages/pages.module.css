@@ -133,6 +133,12 @@ White:    #FFFFFF */
   border-bottom: grey solid 1px;
 }
 
+.youtube_icon{
+  height: 1.2rem;
+  /* margin:.25rem; */
+  /* background-color: #e0f2ff; */
+}
+
 @media only screen and (max-width: 992px){
   .container1{
     background-image: url("../images/main1.jpg");

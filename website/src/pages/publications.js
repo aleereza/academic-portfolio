@@ -2,6 +2,8 @@ import React from 'react'
 import Publication from "../components/PageComponents/Publication/Publication"
 import styles from "./pages.module.css"
 
+import Button from "../components/PageComponents/Button/Button"
+
 class PublicationPage extends React.Component {
   constructor(props) {
     super(props)
@@ -14,6 +16,7 @@ class PublicationPage extends React.Component {
     const publicationspatentsdata = this.props.data.allPublicationsPatents.edges
     return (
       <div className={styles.pagecontainer}>
+        <Button to="https://scholar.google.ca/citations?user=dqsw1u8AAAAJ&hl=en"><strong>Google Scholar</strong></Button>
         <h1>Refereed Publications</h1>
         <h2>Journals</h2>
         {refereedjournalsdata.map((row,i) => (

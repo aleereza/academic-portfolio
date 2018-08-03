@@ -1,5 +1,6 @@
 .container {
   text-align: center;
+  overflow-x: hidden;
   /* flex-direction: row;
   flex: 1 1 0; */
   /* border-bottom: #97D4E9 solid 3px;
@@ -16,6 +17,7 @@
   color: #97D4E9;
   margin: 0;
   font-size: 1.3rem;
+  overflow-x: hidden;
   /* background-color: #002145; */
   /* border: black solid 1px; */
 }

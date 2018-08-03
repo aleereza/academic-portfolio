@@ -16,7 +16,7 @@ const IndexPage = () => (
         <p>She has supervised 43 Ph.D. and 50 Master students. She has served and provided leadership to IEEE and other professional societies .She was the 2016-2017 President of the IEEE Signal Processing Society,  and Member of its Board of Governors (2003 – 2005; 2008 – 2010).
 
         </p>
-        <p><Button to={CV}>CV</Button></p>
+        <p><Button to={CV} filename="CV_Rabab_Ward.pdf">CV</Button></p>
       </div>
     </div>
     <div className={styles.container2}>

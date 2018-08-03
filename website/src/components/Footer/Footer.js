@@ -26,7 +26,7 @@ class Footer extends React.Component {
             </div>
             <div className={styles.col}>
               <FooterElement icon={location_icon}>
-                University of British Columbia, c/o The Fred Kaiser Building, 5500-2332 Main Mall, Vancouver, BC, Canada, V6T 1Z4
+                University of British Columbia, The Fred Kaiser Building, 5500-2332 Main Mall, Vancouver, BC, Canada, V6T 1Z4
               </FooterElement>
             </div>
         </div>

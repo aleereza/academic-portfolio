@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from "./pages.module.css"
 
+import youtube_icon from "../images/icons/youtube_icon_red.png"
+
 const BiographyPage = () => (
   <div className={styles.pagecontainer}>
     <p>Dr. Rabab K. Ward is a Professor Emeritus in the Electrical and Computer Engineering Department at the University of British Columbia (UBC), Canada. She is Fellow of the Royal Society of Canada, the Institute of Electrical and Electronics Engineers, the Canadian Academy of Engineers, and the Engineering Institute of Canada.  She has received many awards for her academic, research, service and leadership. Her research interests focus on the areas of signal, image, and video processing. Her contributions include signal detection; image encoding, compression, recognition, restoration, and enhancement; and their combined applications in cable TV, HDTV, medical imaging, infant cry signals, and brain computer interfaces. Dr. Ward has published upwards of 195 refereed journal papers, 335 refereed conference articles, and holds eight patents related to picture monitoring, measurement, and noise reduction concerning cable television. Applications of her work have been transferred to U.S. and Canadian industries. She is the inventor of non-intrusive measurement methods for TV video impairments (licensed to Hewlett-Packard, 1995) and co-inventor of a non-interfering video system for measuring size and biomass of fish in cages and Tanks (licensed to J. B. Thompson and Associates, 1997).
@@ -15,17 +17,17 @@ const BiographyPage = () => (
       </li>
       <li><strong>As a good will ambassador for engineering</strong>, she has taken an active role in raising the awareness and increasing the appreciation of engineering by the public. She has co-directed/co-produced digital material surrounding “signal processing” – her field of expertise in engineering. The following are six of Dr. Ward’s frequently used videos that have been extensively used to attract student  to the filed:
         <ul>
-          <li><a href="https://www.youtube.com/watch?v=EErkgr1MWw0">What is Signal Processing?</a>
+          <li><a href="https://www.youtube.com/watch?v=EErkgr1MWw0"><img className={styles.youtube_icon} src={youtube_icon}/> What is Signal Processing?</a>
           </li>
-          <li><a href="https://www.youtube.com/watch?v=MFsxuO8HC7k">Signal Processing and Machine learning</a>
+          <li><a href="https://www.youtube.com/watch?v=MFsxuO8HC7k"><img className={styles.youtube_icon} src={youtube_icon}/> Signal Processing and Machine learning</a>
           </li>
-          <li><a href="https://www.youtube.com/watch?v=Vcii84n7piw&t=2s">Under the Radar</a>
+          <li><a href="https://www.youtube.com/watch?v=Vcii84n7piw&t=2s"><img className={styles.youtube_icon} src={youtube_icon}/> Under the Radar</a>
           </li>
-          <li><a href="https://www.youtube.com/watch?v=NRRzs0bB0a0">Multimedia Forensics</a>
+          <li><a href="https://www.youtube.com/watch?v=NRRzs0bB0a0"><img className={styles.youtube_icon} src={youtube_icon}/> Multimedia Forensics</a>
           </li>
-          <li><a href="https://www.youtube.com/watch?v=T0VPjHwrc-o&t=6s">Signal Processing in Free Viewpoint Television</a>
+          <li><a href="https://www.youtube.com/watch?v=T0VPjHwrc-o&t=6s"><img className={styles.youtube_icon} src={youtube_icon}/> Signal Processing in Free Viewpoint Television</a>
           </li>
-          <li><a href="https://www.youtube.com/watch?v=yKEkqqBvaIo">The Benefits of Spoken Language Technologies</a>
+          <li><a href="https://www.youtube.com/watch?v=yKEkqqBvaIo"><img className={styles.youtube_icon} src={youtube_icon}/> The Benefits of Spoken Language Technologies</a>
           </li>
         </ul>
       </li>
