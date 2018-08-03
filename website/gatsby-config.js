@@ -1,6 +1,6 @@
 module.exports = {
   // Note: it must *not* have a trailing slash.
-  pathPrefix: '/rababw',
+  pathPrefix: '/~rababw',
   siteMetadata: {
     title: 'Rabab Kreidieh Ward',
   },
