@@ -13,9 +13,7 @@ class ResearchPage extends React.Component {
         <h1>Areas of special interest and accomplishments</h1>
         <p>My research has mainly focused on the field of Signal Processing, dealing with the analysis, interpretation, and manipulation of signals that represent observable quantities. An unexhaustive list of these signals include audio, video, speech, image, geophysical, sonar, radar, medical, musical and communication. My research involves solving real-life issues using  signal processing theories and techniques.
         </p>
-        <p>My projects, previous and on-going, include:
-        </p>
-        <h1>My Research Projects</h1>
+        <h1>My Research Areas Include</h1>
         <h2>1. Processing of Images</h2>
         <Research
           title = "Image restoration and enhancement"

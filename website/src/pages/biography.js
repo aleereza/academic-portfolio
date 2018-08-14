@@ -13,9 +13,9 @@ const BiographyPage = () => (
     </p>
 
     <ul>
-      <li><strong>As a good will ambassador for women</strong> in STEM fields (focusing on engineering), Dr. Ward is one of the founders of the Society for Canadian Women in Science & Technology. Under the guidance of her and her peers, the society has successfully introduced programs to support high school girls with mathematics, as well as provide hands-on experience with science and technology. Dr. Ward has also presented countless times to elementary and high schools on the power of engineering.
+      <li><strong className={styles.biostrong}>As a good will ambassador for women</strong> in STEM fields (focusing on engineering), Dr. Ward is one of the founders of the Society for Canadian Women in Science & Technology. Under the guidance of her and her peers, the society has successfully introduced programs to support high school girls with mathematics, as well as provide hands-on experience with science and technology. Dr. Ward has also presented countless times to elementary and high schools on the power of engineering.
       </li>
-      <li><strong>As a good will ambassador for engineering</strong>, she has taken an active role in raising the awareness and increasing the appreciation of engineering by the public. She has co-directed/co-produced digital material surrounding “signal processing” – her field of expertise in engineering. The following are six of Dr. Ward’s frequently used videos that have been extensively used to attract student  to the filed:
+      <li><strong className={styles.biostrong}>As a good will ambassador for engineering</strong>, she has taken an active role in raising the awareness and increasing the appreciation of engineering by the public. She has co-directed/co-produced digital material surrounding “signal processing” – her field of expertise in engineering. The following are six of Dr. Ward’s frequently used videos that have been extensively used to attract student  to the filed:
         <ul>
           <li><a href="https://www.youtube.com/watch?v=EErkgr1MWw0"><img className={styles.youtube_icon} src={youtube_icon}/> What is Signal Processing?</a>
           </li>
@@ -76,11 +76,11 @@ const BiographyPage = () => (
       </li>
     </ul>
 
-    <h1>Other Works and Information</h1>
+    <h1>Other Work and Information</h1>
     <ul>
       <li>Dr. Ward was appointed as one among a 12 scientist committee to advise Her Highness Sheika Mozah – Head of the Qatar Foundation – on establishing and promoting scientific research in Qatar (2006 – 2008). She was a member of the UBC Committee that planned the Kuwait Institute for Business and Technology (2001 – 2004). She was also the UBC VPRI special advisor on collaboration with the Middle East. Dr. Ward has also led the IEEE Tab Committee on Africa and Education.
       </li>
-      <li>Dr. was the chief scientist of “Ward Laboratories Inc.”: a spin-off company bearing her name (1993 – 2006). The company signed an agreement with UBC to license patents and information, developed by Dr. Ward and her associates, relating to cable television picture-quality monitoring, measurement, and noise reduction.
+      <li>She was the chief scientist of “Ward Laboratories Inc.”: a spin-off company bearing her name (1993 – 2006). The company signed an agreement with UBC to license patents and information, developed by Dr. Ward and her associates, relating to cable television picture-quality monitoring, measurement, and noise reduction.
         <ul>
           <li>Helwitt-Packard holds an exclusive license for her invention (See: Patent #6) for a non-intrusive method of testing of cable TV performance and allowing cable TV operators (for the first time) to measure picture quality of TV pictures without interrupting program transmission.
           </li>

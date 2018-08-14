@@ -164,6 +164,10 @@ White:    #FFFFFF */
   }
 }
 
+.biostrong{
+  font-size: 1.3rem;
+}
+
 @media only screen and (max-width: 600px){
   .container1{
     background-image: url("../images/main3.jpg");

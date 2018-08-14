@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from "./pages.module.css"
 import TableRow4 from "../components/PageComponents/TableRow/TableRow4"
+
+import youtube_icon from "../images/icons/youtube_icon_red.png"
 //import Link from 'gatsby-link'
 
 class ActivitiesPage extends React.Component {
@@ -19,17 +21,17 @@ class ActivitiesPage extends React.Component {
     <p>Dr. Ward noticed a lack of understanding and appreciation by the general public of engineering . So she set to produce videos to raise the awareness about  “signal processing’  ,her  field of expertise in engineering  . She co-directed and/or co-produced many videos which had thousands of hits on YouTube  and have been used extensively by professors to attract students to the field . Amongst these are the following 6 videos she has conceived and produced or directed
     </p>
     <ul>The following are six of Dr. Ward’s frequently used videos:
-      <li><a href="https://www.youtube.com/watch?v=EErkgr1MWw0">What is Signal Processing?</a>
+      <li><a href="https://www.youtube.com/watch?v=EErkgr1MWw0"><img className={styles.youtube_icon} src={youtube_icon}/> What is Signal Processing?</a>
       </li>
-      <li><a href="https://www.youtube.com/watch?v=MFsxuO8HC7k">Signal Processing and Machine learning</a>
+      <li><a href="https://www.youtube.com/watch?v=MFsxuO8HC7k"><img className={styles.youtube_icon} src={youtube_icon}/> Signal Processing and Machine learning</a>
       </li>
-      <li><a href="https://www.youtube.com/watch?v=Vcii84n7piw&t=2s">Under the Radar</a>
+      <li><a href="https://www.youtube.com/watch?v=Vcii84n7piw&t=2s"><img className={styles.youtube_icon} src={youtube_icon}/> Under the Radar</a>
       </li>
-      <li><a href="https://www.youtube.com/watch?v=NRRzs0bB0a0">Multimedia Forensics</a>
+      <li><a href="https://www.youtube.com/watch?v=NRRzs0bB0a0"><img className={styles.youtube_icon} src={youtube_icon}/> Multimedia Forensics</a>
       </li>
-      <li><a href="https://www.youtube.com/watch?v=T0VPjHwrc-o&t=6s">Signal Processing in Free Viewpoint Television</a>
+      <li><a href="https://www.youtube.com/watch?v=T0VPjHwrc-o&t=6s"><img className={styles.youtube_icon} src={youtube_icon}/> Signal Processing in Free Viewpoint Television</a>
       </li>
-      <li><a href="https://www.youtube.com/watch?v=yKEkqqBvaIo">The Benefits of Spoken Language Technologies</a>
+      <li><a href="https://www.youtube.com/watch?v=yKEkqqBvaIo"><img className={styles.youtube_icon} src={youtube_icon}/> The Benefits of Spoken Language Technologies</a>
       </li>
     </ul>
     <h1>IEEE  Accomplisemnets and Avtivities</h1>
