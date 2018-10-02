@@ -66,7 +66,6 @@ name,program,date,supervisor,cosupervisor,status
 "Souhaib, Majzoub",Ph.D.,08/2010,R. Saleh,R. Ward,"Assistant Professor at King Saud University, Saudi Arabia",,,
 "Sun, Ning",M.A.Sc. (p/t),12/2011,R. Ward,,"Computer Software Professional",,,
 "Chiu, Tommy Tzu Chan",M.A.Sc. (p/t),04/2012,R. Ward,,"Stantec consulting ltd., Vancouver",,,
-"Atkins, Robin",M. A.Sc. (p/t),04/2012,R. Ward,,"Dolby California",,,
 "Gu, Jia",M.A.Sc.,04/2012,R. Ward,,"Avanade (Accenture and Microsoft)",,,
 "Faradji, Farhad",Ph.D.,06/2012,R. Ward,G. Birch,Assistant professor at KN Toosi University in Iran,,,
 "Mai, Zicong",Ph.D. ,07/2012,R. Ward,P. Nasiopoulos,"Research Engineer at Point Grey Research, Vancouver, Canada",,,
@@ -85,12 +84,13 @@ Hiba Shahid,M. A. Sc.,12/2015,R. Ward,,"Software Engineer at NetApp, Vancouver, 
 "Karimi, Davood",Ph.D,07/2016,R. Ward,,"Post Doctoral Fellow, UCLA, California, USA",,,
 "Mahrous, Hesham",M.A.Sc.,08/2016,R. Ward,,"Data Scientist, SAMSUNG Research, Vancouver, BC, Canada",,,
 "Palangi, Hamid",Ph.D.,2017-04-01,R. Ward,,"Microsoft, Deep Learning Research Scientist",,,
-"Valizadeh, Sima",Ph.D.,2017-06-01,P. Nasiopoulos,R. Ward
-"Bashashati, Hossein",Ph.D.,2017-04-01,R. Ward,
-"Sheikhzadeh, Fahimeh",Ph.D.,2018-04-01,R. Ward,Martial Guillaud
-"Rouf, Nasa",Ph.D.,2018-06-01,R. Ward,
+"Valizadeh, Sima",Ph.D.,2017-06-01,P. Nasiopoulos,R. Ward,"Data Analytics Researcher, Mobify, Vancouver, BC, Canada"
+"Bashashati, Hossein",Ph.D.,2017-04-01,R. Ward,,"Machine Learning/Data Scientist, Electronic Arts, Vancouver, BC,Canada"
+"Sheikhzadeh, Fahimeh",Ph.D.,2018-04-01,R. Ward,Martial Guillaud, "Research Officer, University of Technology,Sydney, Australia"
+"Rouf, Nasa",Ph.D.,2018-06-01,R. Ward,,"Computer Vision Engineer, Ouster, San Francisco, California, USA"
 "Hussein, Ramy",Ph.D.,ongoing,R. Ward,Z. Jane Wang
 "Aejalalai, AbdelMalik",Ph.D.,ongoing,v. Leung,R. Ward
 Dana Bazazeh,M.Sc.,ongoing,R. Ward,Z. Jane Wang
 JIanzhe Lin,Ph.D.,ongoing,Z. Jane Wang,R. Ward
-Yongwei Wang ,Ph.D.,ongoing,Z. Jane Wang,R. Ward
+Yongwei Wang,Ph.D.,ongoing,Z. Jane Wang,R. Ward
+"Atkins, Robin",Ph.D.,ongoing,L. Whitehead,R. Ward,

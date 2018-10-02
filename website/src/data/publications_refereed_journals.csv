@@ -1,7 +1,11 @@
 authors,title,journal,link
-"Yongbo Liang, Zhcheng Chen, Rabab Ward, and Mohamed Elgendi","Managing hypertension with ECG and PPG signals: An evaluation using the MIMIC Database","Submitted to Sensors, August 2018.",
-"G. Martınez, N. Howard, D. Abbott, K. Lim, R. Ward, and M. Elgendi","Can Photoplethysmography Replace Arterial Blood Pressure in the Assessment of Blood Pressure?","Submitted to Digital Medicine, August 2018.",
-"A. Awad, A. Mohamed, A. Jaoua, and R. Ward","Edge-based Compression and Classification for Smart Healthcare Systems: Concept, Implementation and Evaluation","Accepted for publication in Expert Systems With Applications, July 2018."
+"J. Cheng, X. Chen, R. Song, Y. Liu, R. Ward, Z. Wang","Video-based Heart Rate Measurement: Recent Advances and Future Prospects","IEEE Transactions on Instrumentation & Measurement, Accepted, October 2018.",
+"A. Awad, A. Emam, A. Chiasserini, A. Mohamed, A. Jaoua, and R. Ward","Edge-based Compression and Classification for Smart Healthcare Systems: Concept, Implementation and Evaluation", "Expert Systems With Applications, vol. 117, pp. 1-14, ISSN 0957-4174, September 2018.",
+"G. Martınez, N. Howard, D. Abbott, K. Lim, R. Ward, and M. Elgendi","Can Photoplethysmography Replace Arterial Blood Pressure in the Assessment of Blood Pressure?","Journal of Clinical Medicine, Accepted, September 2018.",
+"W. Chen, R. Ward, H. Shi","Image Expansion via Edge Neighbor Interpolation and Guided Image Filtering","IEEE Transactions on Image Processing, Submitted, September 2018.",
+"Y. Liang, Z. Chen, R. Ward, and M. Elgendi","Hypertension Assessment via ECG and PPG Signals: An Evaluation Using MIMIC Database","Diagnostics 8 (3), 65, 2018.",
+"R. Hussein, H. Palangi, R. Ward, and Z. J. Wang","Optimized Recurrent Neural Network Architecture for Robust Detection of Epileptic Seizures using EEG Signals", "Elsevier Clinical Neurophysiology, Accepted, July 2018."
+"M. Rouf, R. Ward","High dynamic range imaging with a single exposure-multiplexed image using smooth contour prior","Electronic Imaging vol. 13, pp. 1-6, 2018."
 "Y. Liang, M. Elgendi, Z. Chen, R. Ward","An optimal filter for short photoplethysmogram signals","Nature Scientific Data (5), 180076, 2018.",
 "C. Guo, A. Nasser Aljalai, C. Feng, L. Zhao, V. C. M. Leung, and R. K. Ward","Compute-and-Forward for Uplink Non-Orthogonal Multiple Access","IEEE Wireless Communications Letters, accepted for publication, May 2018.",
 "M. Elgendi, Y. Liang, R. Fletcher, N. Howard, N. H. Lovell, D. Abbott, K. Lim, R. Ward","Review of Blood Pressure Estimation Using the Pulse Oximeter and Other Physiological Signals","Nature Digital Medicine, accepted with minor revisions on the 2nd of April 2018."
