@@ -1,12 +1,13 @@
 authors,title,journal,link
-"Jianzhe Lin, Liang Zhao, Shuying Li, Rabab Ward, and Z. Jane Wang",Active-Learning-Incorporated Deep Transfer Learning for Hyperspectral Image Classification,"IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 11, no. 11, 2018",https://doi.org/10.1109/JSTARS.2018.2874225
+"Y. Liang, Z. Chen, R. Ward, M. Elgendi",Hypertension Assessment Using Photoplethysmography: A Risk Stratification Approach,"Journal of Clinical Medicine vol. 8 , issue 1, 12, 2019.",https://doi.org/10.3390/jcm8010012
+"Jianzhe Lin, Liang Zhao, Shuying Li, Rabab Ward, and Z. Jane Wang",Active-Learning-Incorporated Deep Transfer Learning for Hyperspectral Image Classification,"IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 11, no. 11, 2018.",https://doi.org/10.1109/JSTARS.2018.2874225
 "Y. Liang, Z. Chen, R. Ward, M. Elgendi",Photoplethysmography and Deep Learning: Enhancing Hypertension Risk Stratification,"Biosensors 2018, 8(4), 101.",
 "J. Cheng, X. Chen, R. Song, Y. Liu, R. Ward, Z. Wang",Video-based Heart Rate Measurement: Recent Advances and Future Prospects,"IEEE Transactions on Instrumentation & Measurement, Accepted, October 2018.",
 "A. Awad, A. Emam, A. Chiasserini, A. Mohamed, A. Jaoua, and R. Ward","Edge-based Compression and Classification for Smart Healthcare Systems: Concept, Implementation and Evaluation","Expert Systems With Applications, vol. 117, pp. 1-14, ISSN 0957-4174, September 2018.",
 "G. Martınez, N. Howard, D. Abbott, K. Lim, R. Ward, and M. Elgendi",Can Photoplethysmography Replace Arterial Blood Pressure in the Assessment of Blood Pressure?,"Journal of Clinical Medicine. 2018, 7(10), 316.",https://doi.org/10.3390/jcm7100316
 "W. Chen, R. Ward, H. Shi",Image Expansion via Edge Neighbor Interpolation and Guided Image Filtering,"IEEE Transactions on Image Processing, Submitted, September 2018.",
 "Y. Liang, Z. Chen, R. Ward, and M. Elgendi",Hypertension Assessment via ECG and PPG Signals: An Evaluation Using MIMIC Database,"Diagnostics 8 (3), 65, 2018.",
-"R. Hussein, H. Palangi, R. Ward, and Z. J. Wang",Optimized Recurrent Neural Network Architecture for Robust Detection of Epileptic Seizures using EEG Signals,"Elsevier Clinical Neurophysiology, Accepted, July 2018.",
+"R. Hussein, H. Palangi, R. Ward, and Z. J. Wang",Optimized Deep Neural Network Architecture for Robust Detection of Epileptic Seizures using EEG Signals,"Clinical Neurophysiology, Elsevier, Vol 130, Issue 1, pp 25-37, Jan 2019.",
 "M. Rouf, R. Ward",High dynamic range imaging with a single exposure-multiplexed image using smooth contour prior,"Electronic Imaging vol. 13, pp. 1-6, 2018.",
 "Y. Liang, M. Elgendi, Z. Chen, R. Ward",An optimal filter for short photoplethysmogram signals,"Nature Scientific Data (5), 180076, 2018.",
 "C. Guo, A. Nasser Aljalai, C. Feng, L. Zhao, V. C. M. Leung, and R. K. Ward",Compute-and-Forward for Uplink Non-Orthogonal Multiple Access,"IEEE Wireless Communications Letters, accepted for publication, May 2018.",
@@ -16,7 +17,7 @@ authors,title,journal,link
 "M. Elgendi, Y. Liang, and R. Ward",Toward Generating More Diagnostic Features from Photoplethysmogram Waveforms,"Diseases, vol. 6, no. 20, March 2018.",
 "M. Elgendi, A. Al-Ali, A. Mohamed, and R. Ward",Improving Remote Health Monitoring: A low-complexity ECG Compression Approach,"Diagnostics, vol. 8, no. 1, 10, 2018.",
 "F. Sheikhzadeh, R. Ward, D. van Niekerk, M. Guillaud",Automatic labeling of molecular biomarkers of imunohistochemistry images using fully convolutional networks,"PLoS ONE, vol. 13, no. 1,  doi.org/10.1371/journal.pone.0190783,   January 2018.",
-"Y. Liu, X. Chen, Z. Wang, Z. Jane Wang, R. K. Ward, X. Wang",Deep learning for pixel-level image fusion: Recent advances and future prospects,"Information Fusion, vol. 42, no. 1, pp. 158-173, 2017.",
+"Y. Liu, X. Chen, Z. Wang, Z. Jane Wang, R. K. Ward, X. Wang",Deep learning for pixel-level image fusion: Recent advances and future prospects,"Information Fusion, vol. 42, no. 1, pp. 158-173, 2018.",
 "V. Singhal, A. Majumdar and R. K. Ward",Semi-supervised Deep Blind Compressed Sensing for Analysis and Reconstruction of Biomedical Signals from Compressive Measurements,"in IEEE Access, vol. 1, no. 99, pp. 1-9, Dec 2017.",
 "S. Valizadeh, P. Nasiopoulos and R. Ward",Perceptual Rate Distortion Optimization of 3D-HEVC using PSNR-HVS,"Springer Multimedia Tools and Applications, vol. 1, pp. 1-24, Dec 2017.",
 "M. Elgendi, A. Mohamed, and R. Ward",Efficient ECG Compression and QRS Detection for E-Health Applications,"Scientific Report, Nature, vol. 7, no. 459,  doi:10.1038/s41598-017-00540-x,  March 2017.",

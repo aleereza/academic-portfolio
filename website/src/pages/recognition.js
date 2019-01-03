@@ -43,7 +43,7 @@ const AwardsPage = () => (
     </ul>
     <h2>Best Paper Awards</h2>
     <ul>
-      <li>The 2018 IEEE Signal Processing Best Paper Award wars awarded to our paper: Hamid Palangi, Li Deng, Yelong Shen, Jianfeng Gao, Xiaodong He, Jianshu Chen, Xinying Song, and Rabab Ward, "Deep Sentence Embedding Using Long Short-Term Memory Networks: Analysis and Application to Information Retrieval" IEEE/ACM Transactions on Audio, Speech, and Language Processing, Volume 24, Number 4, April 2016</li>
+      <li>IEEE Signal Processing Society Best Paper Award (2018) went to our paper: "Deep Sentence Embedding Using Long Short-Term Memory Networks: Analysis and Application to Information Retrieval" IEEE/ACM Transactions on Audio, Speech, and Language Processing, Volume 24, Number 4, April 2016.</li>
       <li>Best Paper Award of IS&T International Symposium on Electronic Imaging, “Fast Edge-Directed Single Image Super-resolution” by N. Rouf and R. K. Ward, 2016.</li>
       <li>Our paper “Conversion of H.264 Encoded 2D Video to 3D Format” received the Best Paper Award of the IEEE International Conference on Consumer Electronics, January 2010.</li>
       <li>A Best Student Paper Award went to my student, Shan Du, at the IEEE ICASSP 2005 for a jointly co-authored paper.</li>
