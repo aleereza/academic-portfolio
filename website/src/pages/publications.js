@@ -67,12 +67,13 @@ class PublicationPage extends React.Component {
         </p>
         <h1>Chapters in Books</h1>
         <p>
-          1. Faradj, F., Ward, R., and Birch, G.,{" "}
+          1. Farhad Faradji, Rabab K Ward, Gary E Birch,{" "}
           <strong>
             A Self-Paced Two-State Mental Task-Based Brain-Computer Interface
             with Few EEG Channels
           </strong>
-          , InTechOpen, DOI: 10.5772/intechopen.83425, January 21, 2019
+          , New Frontiers in Brain-Computer Interfaces, IntechOpen, January 21,
+          2019
         </p>
         <p>
           2. Faradj, F., Ward, R., and Birch, G.,{" "}

@@ -1,96 +1,96 @@
 name,program,date,supervisor,cosupervisor,status
 "Rey, Claudio",M.A.Sc.,01/86,R. Ward,,"Deputy Director Reference Design & Standards at Intel Corporation, USA."
 "Ting, Roger",M.A.Sc.,12/86,R. Ward,,"Financial services, private consultant."
-"Revelant, Ivan",M.A.Sc.,04/87,R. Ward,
+"Revelant, Ivan",M.A.Sc.,04/87,R. Ward,,
 "Nasiopoulos, Panos",M.A.Sc.,08/88,R. Ward,,"Professor, Electrical & Computer Eng, Dept., UBC, and Director of ICICS, UBC."
-"Guan, Ling",Ph.D.,01/89,R. Ward,,"Professor at Ryerson University, Toronto, Canada",,,
-"Poon, Steven",M.A.Sc.,08/89,R. Ward,,"Senior Systems Engineer, STEMCELL Technologies Inc. Vancouver , Canada",,,
-"Chi, Lau Meng",M.Eng.,04/90,R. Ward,V. Leung,Currently in Hong Kong,,,
-"Shi, Pingnan",Ph.D.,04/90,R. Ward,,"Director of System Engineering at JDS Uniphase Corporation and Director at Overcome Depression Ministry, Indiana, USA",,,
-"Burge, Ray",M.A.Sc.,08/90,R. Ward,,"Consultant at Brown Electronics, Squamish",,,
-"Lam, Edward",M.A.Sc.,08/90,R. Ward,
-"Smayra, Michael",M.A.Sc.,08/92,R. Ward,
-"Foster, Michael",M.A.Sc.,06/1993,R. Ward,M. Ito,Client Platform at Telecommunication Systems (formerly Networks In Motion).,,,
-"Xie, Qiaobing",Ph.D.,09/1993,R. Ward,C. Laszlo,"Distinguished technologist at Adara Networks, Chicago, USA",,,
-"Shi, Xiaotian",Ph.D.,10/1993,R. Ward,
-"Gresseth, Reider",M.A.Sc.,11/1993,R. Ward,
-"Nasiopoulos, Panos",Ph.D.,04/1994,R. Ward,,"Professor at the University of British Columbia and Director of ICICS",,,
-"Darwish, Mohammad",M.A.Sc.,08/1994,R. Ward,Seger,"CEO of AdvancedIO., Vancouver ",,,
-"Aghdasi, Farzin",Ph.D.,01/1995,R. Ward,,"Director of Innovation at Schneider Electric, California, USAPreviously , Professor at Witwatersrand University, Johannesburg, South Africa",,,
-"Lau, Albert",M.A.Sc.,07/1995,R. Ward,
-"Nesbitt, Daniel",M.A.Sc.,08/1995,R. Ward,,Principal Architect at MobilQuest Systems Inc.,,,
-"Black, John",M.A.Sc.,08/1997,R. Ward,C. Laszlo,"Director - Client Service Management at TELUS",,,
-"Archer, Katerina",M.A.Sc.,08/1997,R. Ward,D. Forsey,"At Gener8 Digital Media, Vancouver",,,
-"Poon, Steven",Ph.D.,12/1997,R. Ward,,"At StemCell technologies Inc. Previously with BC Cancer Agency Research ",,,
-"Barzykina, Ekaterina",M.A.Sc.,04/1998,R. Ward,P. Nasiopoulos,"Manager, Investment Research at CPP Investment Board, Toronto",,,
-"Lee, Yuen-Wen",Ph.D.,04/1998,R. Ward,F. Kossentini,"Technical leader at Cisco Inc., San Francisco, USA",,,
-"Koo, Irene",M.A.Sc.,08/1998,P. Nasiopoulos,R. Ward,"Senior Software Engineer at Microsoft",,,
-"Sameti, Mohammed",Ph.D.,11/1998,R. Ward,,"Senior Project Manager at Motion Metrics, Vancouver, Canada",,,
-"Lou, Ying",M.A.Sc.,08/1999,R. Ward,,"At AMD Canada, Toronto",,,
-"Ahmed, Maher",Ph.D.,08/1999,R. Ward,,"Associate Professor at Wilfrid Laurier University, Waterloo, Canada",,,
-"Shirani, Shahram",Ph.D.,04/2000,F. Kossentini,R. Ward,"Professor at McMaster University, Hamilton, Canada",,,
-"Ismail, Ismail",Ph.D.,08/2000,R. Ward,F. Kossentini,"Principal Video Codec Engineer Magnum Semiconductor, Waterloo, Canada",,,
-"Murad-agha, Abdul",M.A.Sc.,11/2000,R. Ward,,"Sr Principal Engineer at Broadcom, Vancouver. Prviously with UBVideo Inc, Vancouver",,,
-"Shi, Hongjian",M.A.Sc.,09/2001,R. Ward,,"Senior Research Scientist at Danaher, USA. Editor of Advances in Mathematics",,,
-"Mousavi, Parvin",Ph.D.,09/2001,R. Ward,,"Associate Professor at Queen’s University, Kingston, Canada",,,
-"Li, Lilijun",M.Eng.,11/2001,R. Ward,,"At EATON, Guangzhou",,,
-"Duncan, Tracey",M.A.Sc.,02/2002,R. Ward,,Ops Specialist – WIND,,,
-"Hussein, Faten",M.A.Sc.,03/2002,R. Ward,N.Kharma,"At IBM, Egypt",,,
-"Paquet, Alexandre",M.A.Sc.,08/2002,R. Ward,,"Director , Advance Engineering at Bombardier Transportation",,,
-"Subh, Amer",M.Eng.,08/2002,R. Ward,"Adams, Michael",Ph.D.,11/2002,R. Ward,,"Associate Professor at University of Victoria, Victoria, Canada",,,
-"Xiaoli, Li",M.A.Sc.,12/2002,R. Ward,,"CEO, Baustem Broadband Technologies, Ltd.Previously, co-founder of Roxus Inc, Vancouver",,,
-"Arya, Ali",Ph.D.,04/2004,B. Hamidzadeh,R. Ward,"Associate Professor at Carleton University, Ottawa, Canada",,,
-"Azimi, Mehran",Ph.D.,04/2004,R. Ward,P. Nasiopoulos,"Microsoft, Redmond, Washington",,,
-"Ugur, Kemal",M.A.Sc.,08/2004,P. Nasiopoulos,R. Ward,"Research Leader at Nokia, Findland",,,
-"Wang, Thomas",M.A.Sc.,08/2004,R. Ward,
-"Avanaki, Alireza",Ph.D.,10/2004,B. Hamidzadeh,R. Ward,"Sr. Software Engineer at Barco, Portland, USA. Prviously , Assist prof at Amir Kabir University, Tehran",,,
-"Fu, Bin",M.A.Sc.,10/2004,M. Beddoes,R. Ward,"Guangzhou, China",,,
-"Khojasteh, Mehrnoush",M.A.Sc.,12/2004,R. Ward,,"Biomedical Imaging Specialist at Stemcell Technologies, Vancouver, Canada",,,
-"Farahmand, Fazel",M.A.Sc.,01/2005,Z. Moussavi,R. Ward,"Sr Controls Engineer at Capstone Turbine Corporation",,,
-"Wang, Qing",Ph.D.,04/2005,R. Ward,,"At Sigma Designs Inc, Toronto",,,
-"Deng, Hui Qun",Ph.D.,04/2005,R. Ward,,"Dolby, Beijing,China",,,
-"Su, Weizhong",M.A.Sc.,08/2005,R. Ward,,"TI engineer, UBC, Fac. of  Medicine",,,
-"Abdel-Hadi, Marwa",M.Eng.,04/2007,R. Ward,,"RA , Qatar University",,,
-"Gadala, Marwa",M.A.Sc.,05/2007,R. Ward,J. Wang,"Lecturer at King Abdulaziz University",,,
-"Mai, Zicong",M.A.Sc.,08/2007,R. Ward,,"Research Engineer at Point Grey Research, Vancouver",,,
-"Wasniewski, Flavio",M.A.Sc.,08/2007,Ian Cumming,R. Ward,"MacDonald Dettwiler and Associates, Vancouver",,,
-"Bashashati, Ali",Ph.D.,09/2007,R. Ward,G. Birch,"Research Fellow at BC Cancer Agency, Vancouver, Canada",,,
-"Fatourechi, Mehrdad",Ph.D.,01/2008,R. Ward,G. Birch,"Chief Technology Officer at BroadbandTV Corp, Vancouver",,,
-"Mendoza, Lino Coria",Ph.D.,04/2008,R. Ward,P. Nasiopoulos,"Research Engineer at BroadbandTV Corp, Vancouver, Canada. Previously , Assoc. Professor ITESO Universidad Jesuita de Guadalajara, Mexico. Also he is founder of Dos Tres Media, Vancouver",,,
-"Du, Shan",Ph.D.,11/2008,R. Ward,,"Research Scientist at Intellview Technologies, Calgary, Canada",,,
-"Majumdar, Angshul",M.A.Sc.,07/2009,R. Ward,,"Assistant Professor at Indraprastha Institute of Technology, India",,,
-"Ersahin, Kaan",Ph.D. ,11/2009,I. Cumming,R. Ward,"At ASL Environmental Sciences, Victoria, BC. Previously with MDA, Vancouver",,,
-"Tang, Qiang",Ph.D.,04/2010,R. Ward,P. Nasiopoulos,"Research Engineer at Point Grey Research, Vancouver, Canada",,,
-"Paurazad, Mahsa",Ph.D.,06/2010,P. Nasiopoulos,R. Ward,"Research Scientist at TELUS and Systems Consultant at ICICS, UBC, Vancouver, Canada",,,
-"Saab, Rayan",Ph.D.,06/2010,R. Ward,O. Yilmaz,"Assistant Professor at University of California, San Diego, USA",,,
-"Souhaib, Majzoub",Ph.D.,08/2010,R. Saleh,R. Ward,"Assistant Professor at King Saud University, Saudi Arabia",,,
-"Sun, Ning",M.A.Sc. (p/t),12/2011,R. Ward,,"Computer Software Professional",,,
-"Chiu, Tommy Tzu Chan",M.A.Sc. (p/t),04/2012,R. Ward,,"Stantec consulting ltd., Vancouver",,,
-"Gu, Jia",M.A.Sc.,04/2012,R. Ward,,"Avanade (Accenture and Microsoft)",,,
-"Faradji, Farhad",Ph.D.,06/2012,R. Ward,G. Birch,Assistant professor at KN Toosi University in Iran,,,
-"Mai, Zicong",Ph.D. ,07/2012,R. Ward,P. Nasiopoulos,"Research Engineer at Point Grey Research, Vancouver, Canada",,,
-"Majumdar, Angshul",Ph.D.,08/2012,R. Ward,,"Assistant Professor at Indraprastha Institute of Technology, India",,,
-"Yong, Xin Yi",Ph.D. (p/t),08/2012,R. Ward,G. Birch,"Metafore Software, Vancouver",,,
-"Naseri, Ghazal",B.M.E,09/2012,R. Ward,,"Biomedical Engineer, MEng. Program",,,
-"Khojasteh, Mehrnoush",Ph.D.,12/2012,R. Ward,C. MacAulay,"Biomedical Imaging Specialist at Stemcell Technologies, Vancouver, Canada",,,
-"Malekesmaeili, Mani",Ph.D.,07/2013,R. Ward,,"Rigid Robotics Inc, Vancouver",,,
-"Nezhadarya, Ehsan",Ph.D.,07/2013,R. Ward,,"Research Engineer, Magna Inc., Toronto",,,
-"Vahedi, Ehsan",Ph.D.,08/2013,R. Ward,I. Blake,"Research Engineer at BroadbandTV, Vancouver, Canada",,,
-"Guha, Tanaya",Ph.D.,09/2013,R. Ward,,"Postdoctoral fellow at University of California, as of October 2013",,,
-Aida Chehrazi,M.Eng.,09/2013,R. Ward,,"Biomedical Engineer, MEng. Program",,,
-"Fauvel, Simon",M.A.Sc.,11/2013,R. Ward,,Now working as a Research Engineer at Nanyang Technological University,,,
-"Rmeily, Patrick",M.A.Sc.,08/2014,R. Ward,,"Pipeline Technical Director, Nitrogen Studios, Vancouver, BC, Canada",,,
-Hiba Shahid,M. A. Sc.,12/2015,R. Ward,,"Software Engineer at NetApp, Vancouver, BC, Canada",,,
-"Karimi, Davood",Ph.D,07/2016,R. Ward,,"Post Doctoral Fellow, UCLA, California, USA",,,
-"Mahrous, Hesham",M.A.Sc.,08/2016,R. Ward,,"Data Scientist, SAMSUNG Research, Vancouver, BC, Canada",,,
-"Palangi, Hamid",Ph.D.,2017-04-01,R. Ward,,"Microsoft, Deep Learning Research Scientist",,,
+"Guan, Ling",Ph.D.,01/89,R. Ward,,"Professor at Ryerson University, Toronto, Canada"
+"Poon, Steven",M.A.Sc.,08/89,R. Ward,,"Senior Systems Engineer, STEMCELL Technologies Inc. Vancouver , Canada"
+"Chi, Lau Meng",M.Eng.,04/90,R. Ward,V. Leung,Currently in Hong Kong
+"Shi, Pingnan",Ph.D.,04/90,R. Ward,,"Director of System Engineering at JDS Uniphase Corporation and Director at Overcome Depression Ministry, Indiana, USA"
+"Burge, Ray",M.A.Sc.,08/90,R. Ward,,"Consultant at Brown Electronics, Squamish"
+"Lam, Edward",M.A.Sc.,08/90,R. Ward,,
+"Smayra, Michael",M.A.Sc.,08/92,R. Ward,,
+"Foster, Michael",M.A.Sc.,06/1993,R. Ward,M. Ito,Client Platform at Telecommunication Systems (formerly Networks In Motion).
+"Xie, Qiaobing",Ph.D.,09/1993,R. Ward,C. Laszlo,"Distinguished technologist at Adara Networks, Chicago, USA"
+"Shi, Xiaotian",Ph.D.,10/1993,R. Ward,,
+"Gresseth, Reider",M.A.Sc.,11/1993,R. Ward,,
+"Nasiopoulos, Panos",Ph.D.,04/1994,R. Ward,,Professor at the University of British Columbia and Director of ICICS
+"Darwish, Mohammad",M.A.Sc.,08/1994,R. Ward,Seger,"CEO of AdvancedIO., Vancouver "
+"Aghdasi, Farzin",Ph.D.,01/1995,R. Ward,,"Director of Innovation at Schneider Electric, California, USAPreviously , Professor at Witwatersrand University, Johannesburg, South Africa"
+"Lau, Albert",M.A.Sc.,07/1995,R. Ward,,
+"Nesbitt, Daniel",M.A.Sc.,08/1995,R. Ward,,Principal Architect at MobilQuest Systems Inc.
+"Black, John",M.A.Sc.,08/1997,R. Ward,C. Laszlo,Director - Client Service Management at TELUS
+"Archer, Katerina",M.A.Sc.,08/1997,R. Ward,D. Forsey,"At Gener8 Digital Media, Vancouver"
+"Poon, Steven",Ph.D.,12/1997,R. Ward,,"At StemCell technologies Inc. Previously with BC Cancer Agency Research "
+"Barzykina, Ekaterina",M.A.Sc.,04/1998,R. Ward,P. Nasiopoulos,"Manager, Investment Research at CPP Investment Board, Toronto"
+"Lee, Yuen-Wen",Ph.D.,04/1998,R. Ward,F. Kossentini,"Technical leader at Cisco Inc., San Francisco, USA"
+"Koo, Irene",M.A.Sc.,08/1998,P. Nasiopoulos,R. Ward,Senior Software Engineer at Microsoft
+"Sameti, Mohammed",Ph.D.,11/1998,R. Ward,,"Senior Project Manager at Motion Metrics, Vancouver, Canada"
+"Lou, Ying",M.A.Sc.,08/1999,R. Ward,,"At AMD Canada, Toronto"
+"Ahmed, Maher",Ph.D.,08/1999,R. Ward,,"Associate Professor at Wilfrid Laurier University, Waterloo, Canada"
+"Shirani, Shahram",Ph.D.,04/2000,F. Kossentini,R. Ward,"Professor at McMaster University, Hamilton, Canada"
+"Ismail, Ismail",Ph.D.,08/2000,R. Ward,F. Kossentini,"Principal Video Codec Engineer Magnum Semiconductor, Waterloo, Canada"
+"Murad-agha, Abdul",M.A.Sc.,11/2000,R. Ward,,"Sr Principal Engineer at Broadcom, Vancouver. Prviously with UBVideo Inc, Vancouver"
+"Shi, Hongjian",M.A.Sc.,09/2001,R. Ward,,"Senior Research Scientist at Danaher, USA. Editor of Advances in Mathematics"
+"Mousavi, Parvin",Ph.D.,09/2001,R. Ward,,"Associate Professor at Queen’s University, Kingston, Canada"
+"Li, Lilijun",M.Eng.,11/2001,R. Ward,,"At EATON, Guangzhou"
+"Duncan, Tracey",M.A.Sc.,02/2002,R. Ward,,Ops Specialist – WIND
+"Hussein, Faten",M.A.Sc.,03/2002,R. Ward,N.Kharma,"At IBM, Egypt"
+"Paquet, Alexandre",M.A.Sc.,08/2002,R. Ward,,"Director , Advance Engineering at Bombardier Transportation"
+"Subh, Amer",M.Eng.,08/2002,R. Ward,"Adams, Michael",Ph.D.
+"Xiaoli, Li",M.A.Sc.,12/2002,R. Ward,,"CEO, Baustem Broadband Technologies, Ltd.Previously, co-founder of Roxus Inc, Vancouver"
+"Arya, Ali",Ph.D.,04/2004,B. Hamidzadeh,R. Ward,"Associate Professor at Carleton University, Ottawa, Canada"
+"Azimi, Mehran",Ph.D.,04/2004,R. Ward,P. Nasiopoulos,"Microsoft, Redmond, Washington"
+"Ugur, Kemal",M.A.Sc.,08/2004,P. Nasiopoulos,R. Ward,"Research Leader at Nokia, Findland"
+"Wang, Thomas",M.A.Sc.,08/2004,R. Ward,,
+"Avanaki, Alireza",Ph.D.,10/2004,B. Hamidzadeh,R. Ward,"Sr. Software Engineer at Barco, Portland, USA. Prviously , Assist prof at Amir Kabir University, Tehran"
+"Fu, Bin",M.A.Sc.,10/2004,M. Beddoes,R. Ward,"Guangzhou, China"
+"Khojasteh, Mehrnoush",M.A.Sc.,12/2004,R. Ward,,"Biomedical Imaging Specialist at Stemcell Technologies, Vancouver, Canada"
+"Farahmand, Fazel",M.A.Sc.,01/2005,Z. Moussavi,R. Ward,Sr Controls Engineer at Capstone Turbine Corporation
+"Wang, Qing",Ph.D.,04/2005,R. Ward,,"At Sigma Designs Inc, Toronto"
+"Deng, Hui Qun",Ph.D.,04/2005,R. Ward,,"Dolby, Beijing,China"
+"Su, Weizhong",M.A.Sc.,08/2005,R. Ward,,"TI engineer, UBC, Fac. of  Medicine"
+"Abdel-Hadi, Marwa",M.Eng.,04/2007,R. Ward,,"RA , Qatar University"
+"Gadala, Marwa",M.A.Sc.,05/2007,R. Ward,J. Wang,Lecturer at King Abdulaziz University
+"Mai, Zicong",M.A.Sc.,08/2007,R. Ward,,"Research Engineer at Point Grey Research, Vancouver"
+"Wasniewski, Flavio",M.A.Sc.,08/2007,Ian Cumming,R. Ward,"MacDonald Dettwiler and Associates, Vancouver"
+"Bashashati, Ali",Ph.D.,09/2007,R. Ward,G. Birch,"Research Fellow at BC Cancer Agency, Vancouver, Canada"
+"Fatourechi, Mehrdad",Ph.D.,01/2008,R. Ward,G. Birch,"Chief Technology Officer at BroadbandTV Corp, Vancouver"
+"Mendoza, Lino Coria",Ph.D.,04/2008,R. Ward,P. Nasiopoulos,"Research Engineer at BroadbandTV Corp, Vancouver, Canada. Previously , Assoc. Professor ITESO Universidad Jesuita de Guadalajara, Mexico. Also he is founder of Dos Tres Media, Vancouver"
+"Du, Shan",Ph.D.,11/2008,R. Ward,,"Research Scientist at Intellview Technologies, Calgary, Canada"
+"Majumdar, Angshul",M.A.Sc.,07/2009,R. Ward,,"Assistant Professor at Indraprastha Institute of Technology, India"
+"Ersahin, Kaan","Ph.D. ",11/2009,I. Cumming,R. Ward,"At ASL Environmental Sciences, Victoria, BC. Previously with MDA, Vancouver"
+"Tang, Qiang",Ph.D.,04/2010,R. Ward,P. Nasiopoulos,"Research Engineer at Point Grey Research, Vancouver, Canada"
+"Paurazad, Mahsa",Ph.D.,06/2010,P. Nasiopoulos,R. Ward,"Research Scientist at TELUS and Systems Consultant at ICICS, UBC, Vancouver, Canada"
+"Saab, Rayan",Ph.D.,06/2010,R. Ward,O. Yilmaz,"Assistant Professor at University of California, San Diego, USA"
+"Souhaib, Majzoub",Ph.D.,08/2010,R. Saleh,R. Ward,"Assistant Professor at King Saud University, Saudi Arabia"
+"Sun, Ning",M.A.Sc. (p/t),12/2011,R. Ward,,Computer Software Professional
+"Chiu, Tommy Tzu Chan",M.A.Sc. (p/t),04/2012,R. Ward,,"Stantec consulting ltd., Vancouver"
+"Gu, Jia",M.A.Sc.,04/2012,R. Ward,,Avanade (Accenture and Microsoft)
+"Faradji, Farhad",Ph.D.,06/2012,R. Ward,G. Birch,Assistant professor at KN Toosi University in Iran
+"Mai, Zicong","Ph.D. ",07/2012,R. Ward,P. Nasiopoulos,"Research Engineer at Point Grey Research, Vancouver, Canada"
+"Majumdar, Angshul",Ph.D.,08/2012,R. Ward,,"Assistant Professor at Indraprastha Institute of Technology, India"
+"Yong, Xin Yi",Ph.D. (p/t),08/2012,R. Ward,G. Birch,"Metafore Software, Vancouver"
+"Naseri, Ghazal",B.M.E,09/2012,R. Ward,,"Biomedical Engineer, MEng. Program"
+"Khojasteh, Mehrnoush",Ph.D.,12/2012,R. Ward,C. MacAulay,"Biomedical Imaging Specialist at Stemcell Technologies, Vancouver, Canada"
+"Malekesmaeili, Mani",Ph.D.,07/2013,R. Ward,,"Rigid Robotics Inc, Vancouver"
+"Nezhadarya, Ehsan",Ph.D.,07/2013,R. Ward,,"Research Engineer, Magna Inc., Toronto"
+"Vahedi, Ehsan",Ph.D.,08/2013,R. Ward,I. Blake,"Research Engineer at BroadbandTV, Vancouver, Canada"
+"Guha, Tanaya",Ph.D.,09/2013,R. Ward,,"Postdoctoral fellow at University of California, as of October 2013"
+Aida Chehrazi,M.Eng.,09/2013,R. Ward,,"Biomedical Engineer, MEng. Program"
+"Fauvel, Simon",M.A.Sc.,11/2013,R. Ward,,Now working as a Research Engineer at Nanyang Technological University
+"Rmeily, Patrick",M.A.Sc.,08/2014,R. Ward,,"Pipeline Technical Director, Nitrogen Studios, Vancouver, BC, Canada"
+Hiba Shahid,M. A. Sc.,12/2015,R. Ward,,"Software Engineer at NetApp, Vancouver, BC, Canada"
+"Karimi, Davood",Ph.D,07/2016,R. Ward,,"Post Doctoral Fellow, UCLA, California, USA"
+"Mahrous, Hesham",M.A.Sc.,08/2016,R. Ward,,"Data Scientist, SAMSUNG Research, Vancouver, BC, Canada"
+"Palangi, Hamid",Ph.D.,2017-04-01,R. Ward,,"Microsoft, Deep Learning Research Scientist"
 "Valizadeh, Sima",Ph.D.,2017-06-01,P. Nasiopoulos,R. Ward,"Data Analytics Researcher, Mobify, Vancouver, BC, Canada"
 "Bashashati, Hossein",Ph.D.,2017-04-01,R. Ward,,"Machine Learning/Data Scientist, Electronic Arts, Vancouver, BC,Canada"
-"Sheikhzadeh, Fahimeh",Ph.D.,2018-04-01,R. Ward,Martial Guillaud, "Research Officer, University of Technology,Sydney, Australia"
+"Sheikhzadeh, Fahimeh",Ph.D.,2018-04-01,R. Ward,Martial Guillaud," Research Officer  University of Technology,  Sydney,  Australia"
 "Rouf, Nasa",Ph.D.,2018-06-01,R. Ward,,"Computer Vision Engineer, Ouster, San Francisco, California, USA"
-"Hussein, Ramy",Ph.D.,ongoing,R. Ward,Z. Jane Wang
-"Aejalalai, AbdelMalik",Ph.D.,ongoing,v. Leung,R. Ward
-Dana Bazazeh,M.Sc.,ongoing,R. Ward,Z. Jane Wang
-JIanzhe Lin,Ph.D.,ongoing,Z. Jane Wang,R. Ward
-Yongwei Wang,Ph.D.,ongoing,Z. Jane Wang,R. Ward
+"Hussein, Ramy",Ph.D.,2019-08-01,R. Ward,Z. Jane Wang,"PDF.  University of British Columbia "
+Dana Bazazeh,M.Sc.,2018-12-31,R. Ward,Z. Jane Wang,"Electronics Art , Vancouver , BC "
+"Aejalalai, AbdelMalik",Ph.D.,ongoing,v. Leung,R. Ward,
+JIanzhe Lin,Ph.D.,ongoing,Z. Jane Wang,R. Ward,
+Yongwei Wang,Ph.D.,ongoing,Z. Jane Wang,R. Ward,
 "Atkins, Robin",Ph.D.,ongoing,L. Whitehead,R. Ward,

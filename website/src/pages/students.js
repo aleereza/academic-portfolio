@@ -1,28 +1,40 @@
-import React from 'react'
-import styles from "./pages.module.css"
-import Student from "../components/PageComponents/Student/Student"
+import React from "react";
+import styles from "./pages.module.css";
+import Student from "../components/PageComponents/Student/Student";
 
 class StudentsPage extends React.Component {
   constructor(props) {
-    super(props)
+    super(props);
   }
 
   render() {
-    const studentsdata = this.props.data.allStudents.edges
-
+    const studentsdata = this.props.data.allStudents.edges;
 
     return (
       <div className={styles.pagecontainer}>
         <h1>Teaching</h1>
-        <p>I have taught a large number of courses on a variety of subjects in Electrical and Computer Engineering. These include digital signal processing, digital image processing, communication theory, coding, control theory, discrete structural design, optimization, operations research, numerical computations, electromagnetic theory, computer programming, electrical machines, and electronics.
+        <p>
+          I have taught a large number of courses on a variety of subjects in
+          Electrical and Computer Engineering. These include digital signal
+          processing, digital image processing, communication theory, coding,
+          control theory, discrete structural design, optimization, operations
+          research, numerical computations, electromagnetic theory, computer
+          programming, electrical machines, and electronics.
         </p>
         <h1>Graduate Students Supervised</h1>
-        <p>I have supervised 42 Ph.D. students and around 50 Research Master students. All these graduates are presently employed both in Canada and across the world. Thirteen of them hold faculty jobs in universities.
+        <p>
+          I have supervised 42 Ph.D. students and around 50 Research Master
+          students. All these graduates are presently employed both in Canada
+          and across the world. Thirteen of them hold faculty jobs in
+          universities.
         </p>
-        <p>The Ph.D. theses of 7 of my Ph.D. students were nominated by UBC for best doctoral thesis award.
+        <p>
+          The Ph.D. theses of 7 of my Ph.D. students were nominated by UBC for
+          best doctoral thesis award.
         </p>
-        {studentsdata.map((row,i) => (
-          <Student key={i}
+        {studentsdata.map((row, i) => (
+          <Student
+            key={i}
             name={row.node.name}
             program={row.node.program}
             date={row.node.date}
@@ -50,6 +62,7 @@ class StudentsPage extends React.Component {
           <li>Xun Chen, June 2014 ‑ March 2015</li>
           <li>El-Gendi, Mohamed, June 2016 ‑ Present</li>
           <li>Sima Valizadeh, Dec. 31, 2017 ‑ June 30, 2018</li>
+          <li>Ramy Hussein, August 1, 2019 - May 1, 2020</li>
         </ul>
         <h2>Research Engineers Employed:</h2>
         <ul>
@@ -67,29 +80,57 @@ class StudentsPage extends React.Component {
           <li>Dr. Shadaydeh, Maha, Maha, August 2007 ‑ January 2008</li>
           <li>Xiong, Victor, July 2007 ‑ February 2008</li>
         </ul>
-        <p>I have also supervised and employed a large number of undergraduate Students (around 35) as Research Students in my lab.
+        <p>
+          I have also supervised and employed a large number of undergraduate
+          Students (around 35) as Research Students in my lab.
         </p>
         <h2>External Ph.D. thesis examiner</h2>
         <ul>
-          <li>External examiner of Kemal Ugur, Ph.D.  dissertation ,Tampere University of Technology, Finland, July 2010</li>
-          <li>External Examine for Mr. Diego Sorrentino, Univ of Victoria, July 2009</li>
-          <li>External examiner of Dr. Jun Cheng. Ph.D. dissertation, Nanyang Technological University, Singapore, 2007.</li>
-          <li>External examiner of Dr. Naga Mudigonda - Ph.D. dissertation, University of Calgary, Nov., 2001.</li>
-          <li>External examiner of Dr. Mahmoud El-Sakka, Ph.D. dissertation, University of Waterloo, April 1997.</li>
-          <li>External examiner of Dr. Jianping Li - Ph.D. dissertation, University of Victoria, Sep. 1996.</li>
-          <li>External examiner of Dr. Peter Jones - Ph.D. dissertation, Queen&#39;s University, Feb. 1993.</li>
-          <li>External examiner of Dr. Aziz Qureshi - Ph.D. dissertation, Queen&#39;s University, Dec. 1991.</li>
-          <li>External examiner of Dr. Salah G. Foda - Ph.D. dissertation, University of Victoria, July 1988.</li>
+          <li>
+            External examiner of Kemal Ugur, Ph.D. dissertation ,Tampere
+            University of Technology, Finland, July 2010
+          </li>
+          <li>
+            External Examine for Mr. Diego Sorrentino, Univ of Victoria, July
+            2009
+          </li>
+          <li>
+            External examiner of Dr. Jun Cheng. Ph.D. dissertation, Nanyang
+            Technological University, Singapore, 2007.
+          </li>
+          <li>
+            External examiner of Dr. Naga Mudigonda - Ph.D. dissertation,
+            University of Calgary, Nov., 2001.
+          </li>
+          <li>
+            External examiner of Dr. Mahmoud El-Sakka, Ph.D. dissertation,
+            University of Waterloo, April 1997.
+          </li>
+          <li>
+            External examiner of Dr. Jianping Li - Ph.D. dissertation,
+            University of Victoria, Sep. 1996.
+          </li>
+          <li>
+            External examiner of Dr. Peter Jones - Ph.D. dissertation,
+            Queen&#39;s University, Feb. 1993.
+          </li>
+          <li>
+            External examiner of Dr. Aziz Qureshi - Ph.D. dissertation,
+            Queen&#39;s University, Dec. 1991.
+          </li>
+          <li>
+            External examiner of Dr. Salah G. Foda - Ph.D. dissertation,
+            University of Victoria, July 1988.
+          </li>
         </ul>
       </div>
-    )
+    );
   }
 }
 
-export default StudentsPage
+export default StudentsPage;
 
-export const query = graphql
-`
+export const query = graphql`
   query StudentsQuery {
     allStudents: allStudentsCsv {
       edges {
