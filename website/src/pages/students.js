@@ -23,9 +23,9 @@ class StudentsPage extends React.Component {
         </p>
         <h1>Graduate Students Supervised</h1>
         <p>
-          I have supervised 42 Ph.D. students and around 50 Research Master
+          I have supervised 47 Ph.D. students and over 50 Research Master
           students. All these graduates are presently employed both in Canada
-          and across the world. Thirteen of them hold faculty jobs in
+          and across the world. Fifteen of them hold faculty jobs in
           universities.
         </p>
         <p>
@@ -63,6 +63,7 @@ class StudentsPage extends React.Component {
           <li>El-Gendi, Mohamed, June 2016 ‑ Present</li>
           <li>Sima Valizadeh, Dec. 31, 2017 ‑ June 30, 2018</li>
           <li>Ramy Hussein, August 1, 2019 - May 1, 2020</li>
+          <li>Xinrui Cai, August 1, 2020 - present</li>
         </ul>
         <h2>Research Engineers Employed:</h2>
         <ul>
@@ -86,6 +87,10 @@ class StudentsPage extends React.Component {
         </p>
         <h2>External Ph.D. thesis examiner</h2>
         <ul>
+          <li>
+            External Examiner of Ryan (Reza) Moradi Rad, Ph.D. dissertation,
+            Simon Fraser University, August 2019
+          </li>
           <li>
             External examiner of Kemal Ugur, Ph.D. dissertation ,Tampere
             University of Technology, Finland, July 2010
