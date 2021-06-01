@@ -21,13 +21,13 @@ const IndexPage = () => (
           signal detection; image encoding, recognition, and restoration, and
           their applications in cable TV, HDTV, medical imaging, infant cry
           signals, and brain computer interfaces. Dr. Ward has published upwards
-          of 215 refereed journal papers, 335 refereed conference articles, and
+          of 230 refereed journal papers, 340 refereed conference articles, and
           holds eight patents related to monitoring, measurement, and noise
           reduction concerning cable television. Some of her work has been
           licensed to US and Canadian industry.
         </p>
         <p>
-          She has supervised 46 Ph.D. and 50 Master students. She has served and
+          She has supervised 47 Ph.D. and 50 Master students. She has served and
           provided leadership to IEEE and other professional societies .She was
           the 2016-2017 President of the IEEE Signal Processing Society, and is
           presently serving on the IEEE Board of Directors as Director (Division
@@ -52,13 +52,13 @@ const IndexPage = () => (
           signal detection; image encoding, recognition, and restoration, and
           their applications in cable TV, HDTV, medical imaging, infant cry
           signals, and brain computer interfaces. Dr. Ward has published upwards
-          of 215 refereed journal papers, 335 refereed conference articles, and
+          of 230 refereed journal papers, 340 refereed conference articles, and
           holds eight patents related to monitoring, measurement, and noise
           reduction concerning cable television. Some of her work has been
           licensed to US and Canadian industry.
         </p>
         <p>
-          She has supervised 46 Ph.D. and 50 Master students. She has served and
+          She has supervised 47 Ph.D. and 50 Master students. She has served and
           provided leadership to IEEE and other professional societies .She was
           the 2016-2017 President of the IEEE Signal Processing Society, and is
           presently serving on the IEEE Board of Directors as Director (Division

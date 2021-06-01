@@ -47,6 +47,14 @@ class ResearchPage extends React.Component {
           title="Measuring the Length of Every Telomere in Every Chromosome:"
           content="Using fluorescent microscopy to identify the lengths of telomeres (and determine individual longevity)."
         />
+        <Research
+          title="MRI Imaging:"
+          content="Reducing the time a patient has to endure during MRI imaging."
+        />
+        <Research
+          title="CT Scans:"
+          content="Reducing the (X-ray) radiation dose a patient is exposed to during image data capture."
+        />
         <h2>3. Processing of Video Signals</h2>
         <Research
           title="Automatic monitoring, measurement and testing of cable television:"
@@ -64,6 +72,10 @@ class ResearchPage extends React.Component {
         <Research
           title="Brain–Computer Interface Systems:"
           content="To enable people to carry a simple task such as moving a wheel chair forward or backward by using their bran signals only ( i.e. by thinking only)."
+        />
+        <Research
+          title="Automatic Detection and Prediction of seizures suffered by patients with epilepsy by using their brain EEG signals:"
+          content="1- Using photoplethysmogram (PPG) signals, to determine the stage of hypertension (high blood pressure): normotensive, prehypertensive, and hypertensive. 2- Developing foundational technology for understanding spoken language, Web search, information retrieval for Internet search engine."
         />
         <Research
           title="A system that estimates the level a baby’s level of distress from cry signals alone:"
@@ -134,6 +146,14 @@ class ResearchPage extends React.Component {
         />
         <h1>Invited Lectures </h1>
         <ul>
+          <li>
+            Speaker at the PROGRESS (Promoting Diversity in Signal Processing
+            workshop) In AbuDhabi November 2020, and Toronto, June 2021.
+          </li>
+          <li>
+            Speaker about Women in engineering at the IEEE Board of Governors
+            meeting, February 2019.
+          </li>
           <li>
             Invited Lecture “Multimedia, Brain-Computer Interfaces and Medical
             Instrumentation: Dispatches of a Pioneer Woman in Engineering Across
