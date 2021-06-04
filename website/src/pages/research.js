@@ -74,8 +74,16 @@ class ResearchPage extends React.Component {
           content="To enable people to carry a simple task such as moving a wheel chair forward or backward by using their bran signals only ( i.e. by thinking only)."
         />
         <Research
-          title="Automatic Detection and Prediction of seizures suffered by patients with epilepsy by using their brain EEG signals:"
-          content="1- Using photoplethysmogram (PPG) signals, to determine the stage of hypertension (high blood pressure): normotensive, prehypertensive, and hypertensive. 2- Developing foundational technology for understanding spoken language, Web search, information retrieval for Internet search engine."
+          title="Automatic Detection and Prediction of seizures suffered by patients with epilepsy by using their brain EEG signals."
+          content=""
+        />
+        <Research
+          title="Using photoplethysmogram (PPG) signals, to determine the stage of hypertension (high blood pressure): normotensive, prehypertensive, and hypertensive."
+          content=""
+        />
+        <Research
+          title="Developing foundational technology for understanding spoken language, Web search, information retrieval for Internet search engine."
+          content=""
         />
         <Research
           title="A system that estimates the level a baby’s level of distress from cry signals alone:"
