@@ -28,10 +28,9 @@ const IndexPage = () => (
         </p>
         <p>
           She has supervised 47 Ph.D. and 50 Master students. She has served and
-          provided leadership to IEEE and other professional societies .She was
-          the 2016-2017 President of the IEEE Signal Processing Society, and is
-          presently serving on the IEEE Board of Directors as Director (Division
-          1X).
+          provided leadership to IEEE and other professional societies. She was
+          President of the IEEE Signal Processing Society (2016-2017) and IEEE
+          Director Division 1X (2020-2021).
         </p>
         <p>
           <Button to={CV} filename="CV_Rabab_Ward.pdf">
@@ -59,10 +58,9 @@ const IndexPage = () => (
         </p>
         <p>
           She has supervised 47 Ph.D. and 50 Master students. She has served and
-          provided leadership to IEEE and other professional societies .She was
-          the 2016-2017 President of the IEEE Signal Processing Society, and is
-          presently serving on the IEEE Board of Directors as Director (Division
-          1X).
+          provided leadership to IEEE and other professional societies. She was
+          President of the IEEE Signal Processing Society (2016-2017) and IEEE
+          Director Division 1X (2020-2021).
         </p>
         <p>
           <Button to={CV}>CV</Button>
