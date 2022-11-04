@@ -13,23 +13,23 @@ class Timeline extends React.Component {
         <div className={styles.timeline}>
           <TimelineBox
             year="2022"
-            content="Recipient of the IEEE Fourier Award for Signal Processing."
+            content="Recipient of the IEEE Fourier Award for Signal Processing"
           />
           <TimelineBox
             year="2020"
-            content="Elected as a Foreign Fellow of the USA National Academy of Engineering."
+            content="International member of the (USA) National Academy of Engineering"
           />
           <TimelineBox
             year="2016"
-            content="Recipient of the (Centennial) UBC Faculty of Applied Science Dean’s Medal of Distinction."
+            content="Recipient of the (Centennial) UBC Faculty of Applied Science Dean’s Medal of Distinction"
           />
           <TimelineBox
             year="2013"
-            content="The Killam Awards for Excellence in Mentoring recognize outstanding mentorship of numerous graduate students over many years."
+            content="UBC Killam Award for Excellence in Mentoring recognizing outstanding mentorship of numerous graduate students over many years"
           />
           <TimelineBox
             year="2008"
-            content="The highest award of IEEE Signal Processing Society, the &#34;Society Award&#34;. It honors outstanding technical contributions and outstanding leadership in the signal processing field."
+            content="The highest award of IEEE Signal Processing Society, the &#34;Norbert Wiener Society Award&#34;. It honors outstanding technical contributions and outstanding leadership in the signal processing field"
           />
           <TimelineBox
             year="2007"
