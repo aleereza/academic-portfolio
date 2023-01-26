@@ -1,8 +1,19 @@
 authors,title,journal,link
+"Q Tang, Z Chen, R Ward, C Menon, M Elgendi",Subject-Based Model for Reconstructing Arterial Blood Pressure from Photoplethysmogram,"Bioengineering 9 (8), 402, Aug 2022",
+"R Hussein, S Lee, R Ward",Multi-channel vision transformer for epileptic seizure prediction,"Biomedicines 10 (7), 1551, June 2022",
+"Mohsen Gholami, Ahmad Rezaei, Helge Rhodin, Rabab Ward, Z Jane Wang",Self-supervised 3D human pose estimation from video,"Neurocomputing 488, 97-106, June 2022",
+"Fatemeh Y Sinaki, Rabab Ward, Derek Abbott, John Allen, Richard Ribon Fletcher, Carlo Menon, Mohamed Elgendi",Ethnic disparities in publicly-available pulse oximetry databases,"Communications Medicine 2 (1), 1-5, May 2022",
+"Deng Liang, Aiping Liu, Le Wu, Chang Li, Ruobing Qian, Rabab K Ward, Xun Chen",Semisupervised Seizure Prediction in Scalp EEG Using Consistency Regularization,"Journal of Healthcare Engineering, Jan 2022",
+"Qunfeng Tang, Zhencheng Chen, Yanke Guo, Yongbo Liang, Rabab Ward, Carlo Menon, Mohamed Elgendi",Robust Reconstruction of Electrocardiogram Using Photoplethysmography: A Subject-Based Model,"Frontiers in Physiology, 645, 2022",
+"M. Elgendi, R. R. Fletcher, H.Tomar, J. Allen, R. Ward, C. Menon",The Striking Need for Age Diverse Pulse Oximeter Databases,"Frontiers in Medicine, Vol.8,  Dec. 2021",
+"M. S. Mirian, A.Kazemi, R. Hussain, S. Lee, W.D. Verchere, R. K. Ward, M. J.  McKeown",Galvanic Vestibular Stimulation effects on LSTM-based EEG neuro-markers of Motor Vigor in Parkinson's Disease,"Elsevier, Brain Stimulation: Basic, Translational, and Clinical Research in Neuromodulation, Vol. 14 issue 6, Nov. 2021",
+"S. Lee, R. Hussein, R. Ward, Z J.  Wang, M. J, McKeown",A convolutional-recurrent neural network approach to resting-state EEG classification in Parkinson’s disease,"Elsevier Journal of Neuroscience Methods, Vol 361, Sept 2021",
+"D Wang, X Cui, X Chen, R Ward, Z J Wang",Interpreting Bottom-Up Decision-Making of CNNs via Hierarchical Inference,"IEEE Transactions on Image Processing, Vol 30, pp 6701 – 6714, July 2021",
+"Q. Tang, Z. Chen, C. Menon, R. Ward, M. Elgendi",PPGTempStitch: A MATLAB Toolbox for Augmenting Annotated Photoplethsmogram Signals,"Sensors 21(12), 4007, June 2021",
 "R Hussein, S Lee, R Ward, MJ McKeown",Semi-dilated convolutional neural networks for epileptic seizure prediction,"Neural Networks, Elsevier, Vol 139, pp 212-222, July 2021",https://doi.org/10.1016/j.neunet.2021.03.008
 "Y Wang, X Ding, Y Yang, L Ding, R Ward, ZJ Wang",Perception matters: exploring imperceptible and transferable anti-forensics for GAN-generated fake face imagery detection,"Pattern Recognition Letters, Elsevier, Vol 146, 15-22, June 2021",https://doi.org/10.1016/j.patrec.2021.03.009
 "Y Liu, X Chen, A Liu, RK Ward, ZJ Wang",Recent Advances in Sparse Representation Based Medical Image Fusion," IEEE Instrumentation & Measurement Magazine 24 (2), 45-53. April 2021",
-"R Hussein and R Ward", Quantitative and Qualitative Analyses of Invasive EEG for Epileptic Seizure Prediction, "Austin Journal of Clinical Neurology, Vol. 8, Issue 1, id1144, 7 pages, March 2021",
+R Hussein and R Ward, Quantitative and Qualitative Analyses of Invasive EEG for Epileptic Seizure Prediction,"Austin Journal of Clinical Neurology, Vol. 8, Issue 1, id1144, 7 pages, March 2021",
 "AMN Aljalai, C Feng, VCM Leung, RK Ward",Dual Pilot Scheme (DPS) and its Application in Massive MIMO,"IEEE Transactions on Communications, Volume: 69, Issue: 3, PP 1431 - 1444, March 2021",
 "S Valizadeh, P Nasiopoulos, R Ward",Improving compression efficiency of HEVC using perceptual coding,"Multimedia Tools and Applications 80 (7), 10235-10254, 2021",
 "M Elgendi, MU Nasir, Q Tang, D Smith, J Grenier, C Batte, B Spieler, WD Leslie, C Menon, RR Fletcher, N Howard, R Ward, W Parker, S Nicolaou",The effectiveness of image augmentation in deep learning networks for detecting COVID-19: A geometric transformation perspective,Frontiers in Medicine 8. March 2021,
