@@ -21,7 +21,7 @@ const IndexPage = () => (
           signal detection; image encoding, recognition, and restoration, and
           their applications in cable TV, HDTV, medical imaging, infant cry
           signals, and brain computer interfaces. Dr. Ward has published upwards
-          of 230 refereed journal papers, 340 refereed conference articles, and
+          of 240 refereed journal papers, 350 refereed conference articles, and
           holds eight patents related to monitoring, measurement, and noise
           reduction concerning cable television. Some of her work has been
           licensed to US and Canadian industry.
@@ -51,7 +51,7 @@ const IndexPage = () => (
           signal detection; image encoding, recognition, and restoration, and
           their applications in cable TV, HDTV, medical imaging, infant cry
           signals, and brain computer interfaces. Dr. Ward has published upwards
-          of 230 refereed journal papers, 340 refereed conference articles, and
+          of 240 refereed journal papers, 350 refereed conference articles, and
           holds eight patents related to monitoring, measurement, and noise
           reduction concerning cable television. Some of her work has been
           licensed to US and Canadian industry.

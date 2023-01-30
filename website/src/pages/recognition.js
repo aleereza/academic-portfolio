@@ -29,6 +29,7 @@ const AwardsPage = () => (
     </p>
     <h2>Awards for Service</h2>
     <ul>
+      <li>IEEE Fourier Award for Signal Processing, 2023.</li>
       <li>
         Meritorious Service Award of IEEE Signal Processing Society, 2013.
       </li>

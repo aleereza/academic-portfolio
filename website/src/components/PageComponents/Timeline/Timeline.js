@@ -12,8 +12,8 @@ class Timeline extends React.Component {
       <div className={styles.container}>
         <div className={styles.timeline}>
           <TimelineBox
-            year="2022"
-            content="Recipient of the IEEE Fourier Award for Signal Processing"
+            year="2023"
+            content="The IEEE Fourier Award for Signal Processing"
           />
           <TimelineBox
             year="2020"
@@ -21,7 +21,7 @@ class Timeline extends React.Component {
           />
           <TimelineBox
             year="2016"
-            content="Recipient of the (Centennial) UBC Faculty of Applied Science Dean’s Medal of Distinction"
+            content="The (Centennial) UBC Faculty of Applied Science Dean's Medal of Distinction"
           />
           <TimelineBox
             year="2013"
