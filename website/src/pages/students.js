@@ -63,7 +63,7 @@ class StudentsPage extends React.Component {
           <li>El-Gendi, Mohamed, June 2016 ‑ Present</li>
           <li>Sima Valizadeh, Dec. 31, 2017 ‑ June 30, 2018</li>
           <li>Ramy Hussein, August 1, 2019 - May 1, 2020</li>
-          <li>Xinrui Cai, August 1, 2020 - present</li>
+          <li>Xinrui Cai, August 1, 2020 - June 30, 2021</li>
         </ul>
         <h2>Research Engineers Employed:</h2>
         <ul>

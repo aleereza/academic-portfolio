@@ -29,7 +29,6 @@ const AwardsPage = () => (
     </p>
     <h2>Awards for Service</h2>
     <ul>
-      <li>IEEE Fourier Award for Signal Processing, 2023.</li>
       <li>
         Meritorious Service Award of IEEE Signal Processing Society, 2013.
       </li>
@@ -55,6 +54,7 @@ const AwardsPage = () => (
     </ul>
     <h2>Awards for Leadership and Research and Professional Achievements</h2>
     <ul>
+      <li>IEEE Fourier Award for Signal Processing, 2023.</li>
       <li>
         Paradigm Shifter Award of the Society for Canadian Women in Science and
         Technology, Nov 2011.

@@ -12,10 +12,10 @@ class ActivitiesPage extends React.Component {
 
   render() {
     const confroletabledata = this.props.data.allActivitiesConfRoleTable.edges;
-    const membershiptabledata = this.props.data.allActivitiesMembershipTable
-      .edges;
-    const otherservicestabledata = this.props.data
-      .allActivitiesOtherServicesTable.edges;
+    const membershiptabledata =
+      this.props.data.allActivitiesMembershipTable.edges;
+    const otherservicestabledata =
+      this.props.data.allActivitiesOtherServicesTable.edges;
 
     return (
       <div className={styles.pagecontainer}>
@@ -69,7 +69,7 @@ class ActivitiesPage extends React.Component {
             </a>
           </li>
         </ul>
-        <h1>IEEE Accomplisemnets and Avtivities</h1>
+        <h1>IEEE Accomplishments and Activities</h1>
         <h2>IEEE Committees/Boards:</h2>
         <ul>
           <li>
