@@ -6,8 +6,7 @@ const AwardsPage = () => (
     <h2>Fellowships</h2>
     <ul>
       <li>
-        Foreign Member of the United States’ National Academy of Engineering
-        (NAE)
+        Member of the United States' National Academy of Engineering (NAE)
       </li>
       <li>Fellow of the Canadian Academy of Engineers, since 2001</li>
       <li>Fellow of the Royal Society of Canada, since 1999</li>

@@ -13,7 +13,7 @@ const BiographyPage = () => (
       and the Engineering Institute of Canada. She has received many awards for
       her academic, research, service and leadership. Her research interests
       focus on the areas of signal, image, and video processing. Her
-      contributions include signal detection; image encoding, compression,
+      contributions include signal detection, image encoding, compression,
       recognition, restoration, and enhancement; and their combined applications
       in cable TV, HDTV, medical imaging, infant cry signals, and brain computer
       interfaces. Dr. Ward has published upwards of 240 refereed journal papers,
@@ -28,14 +28,14 @@ const BiographyPage = () => (
     </p>
     <p>
       Dr. Ward is presently the VP Education of the IEEE. She was the IEEE
-      Director (Division 1X) in 2020-2121 and Director Elect in 2019. Dr. Ward
+      Director (Division 1X) in 2020-2021 and Director Elect in 2019. Dr. Ward
       has served as the 2016-2017 President of the IEEE Signal Procession
-      Society, after formerly holding the position of Vice President (2003 –
-      2005), and Member of the Board of Governors (2003 – 2005; 2008 – 2010).
-      She was also the co-chair of the IEEE Signal Processing Society’s flagship
-      conferences :ICASSP (2013) and ICIP (2000), as well as the vice chair of
+      Society, after formerly holding the position of Vice President (2003 -
+      2005), and Member of the Board of Governors (2003 - 2005; 2008 - 2010).
+      She was also the co-chair of the IEEE Signal Processing Society's flagship
+      conferences: ICASSP (2013) and ICIP (2000), as well as the vice chair of
       the IEEE International Symposium on Circuits & Systems (2004) and the
-      chair of the IEEE ISSPIT (2006) and SPS MMSP( 2012)
+      chair of the IEEE ISSPIT (2006) and SPS MMSP (2012).
     </p>
     <p>
       She was the Principal Investigator of the $24.2 million CFI/BCKDF award:
