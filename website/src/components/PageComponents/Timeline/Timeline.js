@@ -12,6 +12,10 @@ class Timeline extends React.Component {
       <div className={styles.container}>
         <div className={styles.timeline}>
           <TimelineBox
+            year="2024"
+            content="Member of the European Academy of Sciences and Arts"
+          />
+          <TimelineBox
             year="2023"
             content="The IEEE Fourier Award for Signal Processing"
           />

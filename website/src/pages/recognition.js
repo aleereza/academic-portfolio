@@ -5,6 +5,7 @@ const AwardsPage = () => (
   <div className={styles.pagecontainer}>
     <h2>Fellowships</h2>
     <ul>
+      <li>Member of the European Academy of Sciences and Arts</li>
       <li>
         Member of the United States' National Academy of Engineering (NAE)
       </li>
