@@ -9,6 +9,13 @@ White:    #FFFFFF */
 
 .pagecontainer {
   padding: 1rem;
+  scroll-padding-top: 6rem;
+}
+
+/* Ensure headings have proper scroll margin when accessed via anchor links */
+.pagecontainer h1,
+.pagecontainer h2 {
+  scroll-margin-top: 7rem;
 }
 .pagecontainer h1,
 .pagecontainer h2,
@@ -27,6 +34,239 @@ White:    #FFFFFF */
 }
 .pagecontainer a:hover {
   border-bottom: 1px solid #002145;
+}
+
+/* Table of Contents Navigation */
+.tableofcontents {
+  margin: 0 0 0 0;
+  position: sticky;
+  top: 3.5rem;
+  z-index: 9;
+}
+
+.tocnavcontainer {
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  border-bottom: grey solid 1px;
+  background-color: #e0f2ff;
+  opacity: 0.95;
+  box-shadow: 0 2px 3px -2px black;
+}
+
+.toclist {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 100%;
+}
+
+.toclist > li {
+  text-align: center;
+  flex: 1 1 0;
+  border-bottom: #e0f2ff solid 3px;
+  border-top: #e0f2ff solid 3px;
+  position: relative;
+}
+
+.toclist > li:hover {
+  border-bottom: #002145 solid 3px;
+  transition: .3s;
+}
+
+.toclist > li:hover .toclink {
+  transition: .3s;
+  color: black;
+}
+
+.toclink {
+  color: #002145;
+  text-decoration: none;
+  font-size: 0.9rem;
+  line-height: 1;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.tocinnercontainer {
+  vertical-align: middle;
+  height: 100%;
+  width: 100%;
+  display: table;
+  padding: .5rem;
+  min-height: 2.5rem;
+}
+
+/* Google Scholar icon in table of contents */
+.tocscholar {
+  flex: 0 0 auto !important;
+  min-width: 3rem;
+  border-bottom: #e0f2ff solid 3px !important;
+  border-top: #e0f2ff solid 3px !important;
+}
+
+.tocscholar:hover {
+  border-bottom: #002145 solid 3px !important;
+  transition: .3s;
+}
+
+.tocscholarlink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+}
+
+.tocscholaricon {
+  width: 20px;
+  height: 20px;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.tocscholar:hover .tocscholaricon {
+  opacity: 1;
+  transition: .3s;
+}
+
+/* Dropdown for sub-items */
+.tocsublist {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: #f8f9fa;
+  border: 1px solid #40B4E5;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  display: none;
+  z-index: 100;
+}
+
+.toclist > li:hover .tocsublist {
+  display: block;
+}
+
+.tocsublist li {
+  border-bottom: 1px solid #e9ecef;
+  padding: 0.3rem 0.5rem;
+}
+
+.tocsublist li:last-child {
+  border-bottom: none;
+}
+
+.tocsublist a {
+  color: #0055B7;
+  text-decoration: none;
+  font-size: 0.8rem;
+  display: block;
+}
+
+.tocsublist a:hover {
+  color: #002145;
+  background-color: #e0f2ff;
+}
+
+/* External link styled as h1 */
+.externalheading {
+  margin: 0.67em 0;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 2rem;
+}
+
+.pagecontainer .externallink {
+  color: #002145;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.pagecontainer .externallink:hover {
+  color: #002145 !important;
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+.externalicon {
+  width: 1.2em;
+  height: 1.2em;
+  opacity: 0.8;
+  margin-left: 0.3rem;
+}
+
+/* Search functionality */
+.searchContainer {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.searchBox {
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  width: 100%;
+  background: white;
+  border: 2px solid #e0f2ff;
+  border-radius: 8px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.searchBox:focus-within {
+  border-color: #0055B7;
+  box-shadow: 0 0 0 3px rgba(0, 85, 183, 0.1);
+}
+
+.searchIcon {
+  padding: 0 12px;
+  color: #666;
+  font-size: 16px;
+  user-select: none;
+}
+
+.searchInput {
+  flex: 1;
+  padding: 12px 8px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #002145;
+}
+
+.searchInput::placeholder {
+  color: #6c757d;
+}
+
+.clearButton {
+  padding: 8px 12px;
+  background: none;
+  border: none;
+  color: #666;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.clearButton:hover {
+  background-color: #f3f4f6;
+  color: #374151;
+}
+
+.clearButton:focus {
+  outline: 2px solid #0055B7;
+  outline-offset: 2px;
 }
 
 .container1 {
@@ -163,6 +403,20 @@ White:    #FFFFFF */
   .timelineheader {
     width: 100%;
   }
+
+  /* Adjust table of contents positioning for mobile sticky header */
+  .tableofcontents {
+    top: 4.5rem;
+  }
+
+  /* Adjust scroll offset for narrow screens */
+  .pagecontainer {
+    scroll-padding-top: 8rem;
+  }
+  .pagecontainer h1,
+  .pagecontainer h2 {
+    scroll-margin-top: 8rem;
+  }
 }
 
 .biostrong {
@@ -174,6 +428,21 @@ White:    #FFFFFF */
     background-image: url("../images/main3.jpg");
     /* height: 400px; */
   }
+
+  /* Further adjust table of contents positioning for smallest screens */
+  .tableofcontents {
+    top: 4.5rem;
+  }
+
+  /* Adjust scroll offset for smallest screens */
+  .pagecontainer {
+    scroll-padding-top: 8rem;
+  }
+  .pagecontainer h1,
+  .pagecontainer h2 {
+    scroll-margin-top: 8rem;
+  }
+
   /* .mainpicdiv {
     position: relative;
     width: 60%;
