@@ -13,6 +13,16 @@
   color: #002145;
 }
 
+.titleLink {
+  color: #002145;
+  text-decoration: none;
+}
+
+.titleLink:hover {
+  color: #002145;
+  text-decoration: none;
+}
+
 .authors {
   font-weight: bold;
 }

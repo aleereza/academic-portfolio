@@ -212,6 +212,7 @@ class PublicationPage extends React.Component {
                   title={row.node.title}
                   authors={row.node.authors}
                   journal={row.node.journal}
+                  link={row.node.link}
                 />
               ))}
             </div>
@@ -227,6 +228,7 @@ class PublicationPage extends React.Component {
                   title={row.node.title}
                   authors={row.node.authors}
                   journal={row.node.journal}
+                  link={row.node.link}
                 />
               ))}
             </div>
@@ -256,6 +258,7 @@ class PublicationPage extends React.Component {
                   title={row.node.title}
                   authors={row.node.authors}
                   journal={row.node.journal}
+                  link={row.node.link}
                 />
               ))}
             </div>
@@ -270,6 +273,7 @@ class PublicationPage extends React.Component {
                   title={row.node.title}
                   authors={row.node.authors}
                   journal={row.node.journal}
+                  link={row.node.link}
                 />
               ))}
             </div>
@@ -284,6 +288,7 @@ class PublicationPage extends React.Component {
                   title={row.node.title}
                   authors={row.node.authors}
                   journal={row.node.journal}
+                  link={row.node.link}
                 />
               ))}
             </div>
@@ -314,6 +319,7 @@ export const query = graphql`
           title
           authors
           journal
+          link
         }
       }
     }
@@ -323,6 +329,7 @@ export const query = graphql`
           title
           authors
           journal
+          link
         }
       }
     }
@@ -341,6 +348,7 @@ export const query = graphql`
           title
           authors
           journal
+          link
         }
       }
     }
@@ -350,6 +358,7 @@ export const query = graphql`
           title
           authors
           journal
+          link
         }
       }
     }
@@ -359,6 +368,7 @@ export const query = graphql`
           title
           authors
           journal
+          link
         }
       }
     }
