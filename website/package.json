@@ -9,6 +9,7 @@
     "deploy:ubc": "bash scripts/deploy-ubc.sh",
     "deploy:ubc:dry-run": "bash scripts/deploy-ubc.sh --dry-run",
     "fetch:ubc-live-files": "bash scripts/deploy-ubc.sh fetch-live-files",
+    "backup:ubc-live-site": "bash scripts/deploy-ubc.sh backup-remote",
     "install:ubc-ssh-key": "bash scripts/deploy-ubc.sh install-ssh-key"
   },
   "dependencies": {

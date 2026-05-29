@@ -57,6 +57,8 @@ typings/
 # dotenv environment variables file
 .env
 .deploy-ubc.env
+.deploy-backups/
+.deploy-preserve/
 
 .cache/
 public

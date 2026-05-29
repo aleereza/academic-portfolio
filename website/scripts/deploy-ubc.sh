@@ -26,8 +26,14 @@ SSH_KEY_FILE="${UBC_SSH_KEY:-}"
 MODE="deploy"
 DRY_RUN=0
 FETCH_LIVE_FILES="${FETCH_LIVE_FILES:-1}"
+BUILD_SITE="${BUILD_SITE:-1}"
 ASSUME_YES="${DEPLOY_CONFIRM:-0}"
 AUTO_VPN="${AUTO_VPN:-1}"
+BACKUP_BEFORE_DEPLOY="${UBC_DEPLOY_BACKUP:-1}"
+BACKUP_DIR="${UBC_DEPLOY_BACKUP_DIR:-$REPO_ROOT/.deploy-backups}"
+if [[ "$BACKUP_DIR" != /* ]]; then
+  BACKUP_DIR="$REPO_ROOT/$BACKUP_DIR"
+fi
 VPN_STARTED_BY_SCRIPT=0
 VPN_PID_FILE=""
 
@@ -35,6 +41,7 @@ usage() {
   cat <<'USAGE'
 Usage:
   bash scripts/deploy-ubc.sh [options]
+  bash scripts/deploy-ubc.sh backup-remote [options]
   bash scripts/deploy-ubc.sh fetch-live-files [options]
   bash scripts/deploy-ubc.sh install-ssh-key [options]
 
@@ -42,6 +49,8 @@ Options:
   --dry-run     Build and preview rsync changes, but do not upload.
   --yes         Skip the final confirmation prompt.
   --skip-fetch  Do not fetch live CV/rababw.html before building.
+  --skip-build  Deploy the existing public/ folder without rebuilding it.
+  --skip-backup Do not back up the remote site before uploading.
   --skip-vpn    Do not start or stop the UBC VPN.
   --help        Show this help.
 
@@ -69,6 +78,9 @@ while (($#)); do
       MODE="fetch-live-files"
       FETCH_LIVE_FILES=1
       ;;
+    backup-remote|backup)
+      MODE="backup-remote"
+      ;;
     install-ssh-key|install-key)
       MODE="install-ssh-key"
       ;;
@@ -83,6 +95,12 @@ while (($#)); do
       ;;
     --skip-fetch)
       FETCH_LIVE_FILES=0
+      ;;
+    --skip-build)
+      BUILD_SITE=0
+      ;;
+    --skip-backup)
+      BACKUP_BEFORE_DEPLOY=0
       ;;
     --skip-vpn)
       AUTO_VPN=0
@@ -208,7 +226,7 @@ stop_vpn_if_started() {
   echo "Disconnecting VPN started by this script."
   if [[ -n "$VPN_PID_FILE" && -f "$VPN_PID_FILE" ]]; then
     sudo kill "$(cat "$VPN_PID_FILE")" >/dev/null 2>&1 || true
-    rm -f "$VPN_PID_FILE"
+    sudo rm -f "$VPN_PID_FILE" >/dev/null 2>&1 || true
   else
     sudo pkill -f "openconnect .*${VPN_HOST}" >/dev/null 2>&1 || true
   fi
@@ -291,6 +309,34 @@ build_site() {
   compgen -G "$REPO_ROOT/public/static/cvrababw*.pdf" >/dev/null || die "Build did not create public/static/cvrababw*.pdf"
 }
 
+backup_remote_site() {
+  need_cmd date
+  need_cmd rsync
+  need_cmd ssh
+
+  local stamp backup_path
+  stamp="$(date +%Y%m%d-%H%M%S)"
+  backup_path="$BACKUP_DIR/ipl-$stamp"
+
+  if [[ -e "$backup_path" ]]; then
+    backup_path="$BACKUP_DIR/ipl-$stamp-$$"
+  fi
+
+  mkdir -p "$backup_path"
+
+  {
+    echo "Source: ${REMOTE}:${REMOTE_DIR}/"
+    echo "Created: $(date -Iseconds)"
+  } > "$backup_path/.backup-info.txt"
+
+  echo "Backing up current remote site to:"
+  echo "  $backup_path/"
+
+  run_rsync -rlz --no-perms --no-owner --no-group --no-times --itemize-changes -e "$(ssh_rsh)" \
+    "${REMOTE}:${REMOTE_DIR}/" \
+    "$backup_path/"
+}
+
 deploy_site() {
   need_cmd rsync
   need_cmd ssh
@@ -303,7 +349,7 @@ deploy_site() {
   echo "  ${REMOTE}:${REMOTE_DIR}/"
   echo
 
-  run_rsync -avzn --delete --itemize-changes -e "$(ssh_rsh)" \
+  run_rsync -rlvzn --delete --filter='P /.htaccess' --no-perms --no-owner --no-group --no-times --itemize-changes -e "$(ssh_rsh)" \
     "$REPO_ROOT/public/" \
     "${REMOTE}:${REMOTE_DIR}/"
 
@@ -319,8 +365,14 @@ deploy_site() {
     [[ "$answer" == "deploy" ]] || die "Deploy cancelled."
   fi
 
+  if [[ "$BACKUP_BEFORE_DEPLOY" == "1" ]]; then
+    backup_remote_site
+  else
+    echo "Skipping remote backup."
+  fi
+
   echo "Uploading Gatsby public/ to the UBC server."
-  run_rsync -avz --delete --itemize-changes -e "$(ssh_rsh)" \
+  run_rsync -rlvz --delete --filter='P /.htaccess' --no-perms --no-owner --no-group --no-times --itemize-changes -e "$(ssh_rsh)" \
     "$REPO_ROOT/public/" \
     "${REMOTE}:${REMOTE_DIR}/"
 }
@@ -335,6 +387,12 @@ if [[ "$MODE" == "fetch-live-files" ]]; then
   exit 0
 fi
 
+if [[ "$MODE" == "backup-remote" ]]; then
+  backup_remote_site
+  echo "Backed up remote site."
+  exit 0
+fi
+
 if [[ "$MODE" == "install-ssh-key" ]]; then
   install_ssh_key
   echo "SSH key login is ready."
@@ -345,7 +403,13 @@ if [[ "$FETCH_LIVE_FILES" == "1" ]]; then
   fetch_live_files
 fi
 
-build_site
+if [[ "$BUILD_SITE" == "1" ]]; then
+  build_site
+else
+  [[ -f "$REPO_ROOT/public/index.html" ]] || die "public/index.html does not exist"
+  [[ -f "$REPO_ROOT/public/rababw.html" ]] || die "public/rababw.html does not exist"
+fi
+
 deploy_site
 
 echo "Done."
