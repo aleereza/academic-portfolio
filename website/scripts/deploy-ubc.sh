@@ -225,10 +225,24 @@ stop_vpn_if_started() {
 
   echo "Disconnecting VPN started by this script."
   if [[ -n "$VPN_PID_FILE" && -f "$VPN_PID_FILE" ]]; then
-    sudo kill "$(cat "$VPN_PID_FILE")" >/dev/null 2>&1 || true
+    local vpn_pid
+    vpn_pid="$(cat "$VPN_PID_FILE")"
+    sudo kill "$vpn_pid" >/dev/null 2>&1 || true
+    for _ in {1..20}; do
+      if ! sudo kill -0 "$vpn_pid" >/dev/null 2>&1; then
+        break
+      fi
+      sleep 0.25
+    done
     sudo rm -f "$VPN_PID_FILE" >/dev/null 2>&1 || true
   else
     sudo pkill -f "openconnect .*${VPN_HOST}" >/dev/null 2>&1 || true
+  fi
+
+  if vpn_active; then
+    echo "Warning: VPN tunnel still appears active."
+  else
+    echo "VPN disconnected."
   fi
 }
 
