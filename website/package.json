@@ -5,7 +5,11 @@
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "deploy:ubc": "bash scripts/deploy-ubc.sh",
+    "deploy:ubc:dry-run": "bash scripts/deploy-ubc.sh --dry-run",
+    "fetch:ubc-live-files": "bash scripts/deploy-ubc.sh fetch-live-files",
+    "install:ubc-ssh-key": "bash scripts/deploy-ubc.sh install-ssh-key"
   },
   "dependencies": {
     "bootstrap": "^4.1.2",
